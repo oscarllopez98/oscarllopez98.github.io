@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
 
     <title>Oscar Lopez</title>
   </head>
@@ -23,52 +23,63 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">About Me</a>
+            <a id="about-nav" class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Work Experience</a>
+            <a id="portfolio-nav" class="nav-link" href="#">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
+            <a id="contact-nav" class="nav-link" href="#">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">LinkedIn</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Instagram</a>
+            <a id="resume-nav" class="nav-link" href="#">Resume</a>
           </li>
         </ul>
-        <span class="navbar-text">Email - OSCARLLOPEZ98@gmail.com</span>
+        <span id="email-subsection" class="navbar-text">
+          Email -
+          <input id="email" size="21" value="oscarllopez98@gmail.com" readonly></input>
+          <button id="email-button" type="button" name="button">Copy to Clipboard!</button>
+        </span>
       </div>
     </nav>
 
     <!-- About Me -->
-    <section class="">
+    <section id="about" class="content">
       <header class="section-header lead">About Me</header>
       <div class="container section-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit pellentesque risus, sed mattis enim euismod ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse a pharetra leo. Praesent pharetra egestas faucibus. Nullam id dui accumsan, mattis mauris gravida, tempus lectus. Vestibulum ultricies sodales accumsan. Proin dui nunc, aliquam mollis nibh scelerisque, mollis mattis dui. Maecenas facilisis, felis id sodales iaculis, augue sapien lobortis dui, eu hendrerit enim purus eget velit. Donec eget orci iaculis, sollicitudin est vitae, ornare risus. Nunc eget purus hendrerit felis elementum ullamcorper et nec diam. Cras ullamcorper quam ac efficitur commodo.
       </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="content">
+      <header class="section-header lead">Portfolio</header>
       <div class="container section-body">
-        <img class="profile-pic" src="images/profile_pic.png" alt="Profile Picture">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit pellentesque risus, sed mattis enim euismod ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse a pharetra leo. Praesent pharetra egestas faucibus. Nullam id dui accumsan, mattis mauris gravida, tempus lectus. Vestibulum ultricies sodales accumsan. Proin dui nunc, aliquam mollis nibh scelerisque, mollis mattis dui. Maecenas facilisis, felis id sodales iaculis, augue sapien lobortis dui, eu hendrerit enim purus eget velit. Donec eget orci iaculis, sollicitudin est vitae, ornare risus. Nunc eget purus hendrerit felis elementum ullamcorper et nec diam. Cras ullamcorper quam ac efficitur commodo.
       </div>
     </section>
 
-
-
-    <!-- Work Experience -->
-
-    <!-- Projects -->
-
+    <!-- Contact -->
+    <section id="contact" class="content">
+      <header class="section-header lead">Contact</header>
+      <div class="container section-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit pellentesque risus, sed mattis enim euismod ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse a pharetra leo. Praesent pharetra egestas faucibus. Nullam id dui accumsan, mattis mauris gravida, tempus lectus. Vestibulum ultricies sodales accumsan. Proin dui nunc, aliquam mollis nibh scelerisque, mollis mattis dui. Maecenas facilisis, felis id sodales iaculis, augue sapien lobortis dui, eu hendrerit enim purus eget velit. Donec eget orci iaculis, sollicitudin est vitae, ornare risus. Nunc eget purus hendrerit felis elementum ullamcorper et nec diam. Cras ullamcorper quam ac efficitur commodo.
+      </div>
+    </section>
     <!-- Resume -->
-
+    <section id="resume" class="content">
+      <header class="section-header lead">Resume</header>
+      <div class="container section-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit pellentesque risus, sed mattis enim euismod ut. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Suspendisse a pharetra leo. Praesent pharetra egestas faucibus. Nullam id dui accumsan, mattis mauris gravida, tempus lectus. Vestibulum ultricies sodales accumsan. Proin dui nunc, aliquam mollis nibh scelerisque, mollis mattis dui. Maecenas facilisis, felis id sodales iaculis, augue sapien lobortis dui, eu hendrerit enim purus eget velit. Donec eget orci iaculis, sollicitudin est vitae, ornare risus. Nunc eget purus hendrerit felis elementum ullamcorper et nec diam. Cras ullamcorper quam ac efficitur commodo.
+      </div>
+    </section>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Custome JavaScript -->
+    <script src="javascript/main.js"></script>
   </body>
 </html>
