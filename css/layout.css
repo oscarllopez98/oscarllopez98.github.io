@@ -351,14 +351,14 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: html5_css 2s ease;
 }
 .jquery {
-  	width: 65%;
+  	width: 75%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
-.flask {
-  	width: 60%;
-  	-moz-animation: flask 2s ease;
-  	-webkit-animation: flask 2s ease;
+.OOP {
+  	width: 90%;
+  	-moz-animation: OOP 2s ease;
+  	-webkit-animation: OOP 2s ease;
 }
 
 @-moz-keyframes java {
@@ -383,11 +383,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 75%;  }
 }
-@-moz-keyframes flask {
+@-moz-keyframes OOP {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 
 
@@ -413,11 +413,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 75%;  }
 }
-@-webkit-keyframes flask {
+@-webkit-keyframes OOP {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
 
 /* ------------------------------------------------------------------ */
