@@ -133,3 +133,27 @@
       randomize: false,
    });
 });
+
+
+//Custom JS
+
+//TrophyTeam Image on hover functions
+//On hovering image, fade text to black
+$("#portfolio-TrophyTeam").mouseenter(function() {
+  $(".portfolio-text-TrophyTeam").css("color","#000000");
+});
+//On exiting hovering image, fade text back to gray
+$("#portfolio-TrophyTeam").mouseleave(function() {
+  $(".portfolio-text-TrophyTeam").css("color","#b3b3b3");
+});
+
+
+//HCI Image on hover functions
+//On hovering image, fade text to black
+$("#portfolio-HCI").mouseenter(function() {
+  $(".portfolio-text-HCI").css("color","#000000");
+});
+//On exiting hovering image, fade text back to gray
+$("#portfolio-HCI").mouseleave(function() {
+  $(".portfolio-text-HCI").css("color","#b3b3b3");
+});
