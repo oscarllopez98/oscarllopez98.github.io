@@ -332,7 +332,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 90%;
+  	width: 95%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
@@ -342,7 +342,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: python 2s ease;
 }
 .cplusplus {
-  	width: 75%;
+  	width: 70%;
   	-moz-animation: cplusplus 2s ease;
   	-webkit-animation: cplusplus 2s ease;
 }
@@ -362,15 +362,55 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 .OOP {
-  	width: 90%;
+  	width: 95%;
   	-moz-animation: OOP 2s ease;
   	-webkit-animation: OOP 2s ease;
 }
-
 .android {
   width: 80%;
   -moz-animation: android 2s ease;
   -webkit-animation: android 2s ease;
+}
+
+.test-methodologies {
+  width: 90%;
+  -moz-animation: test-methodologies 2s ease;
+  -webkit-animation: test-methodologies 2s ease;
+}
+.test-automation {
+  width: 85%;
+  -moz-animation: test-automation 2s ease;
+  -webkit-animation: test-automation 2s ease;
+}
+.test-planning {
+  width: 90%;
+  -moz-animation: test-planning 2s ease;
+  -webkit-animation: test-planning 2s ease;
+}
+.mobile-app-testing {
+  width: 75%;
+  -moz-animation: mobile-app-testing 2s ease;
+  -webkit-animation: mobile-app-testing 2s ease;
+}
+.quality-analysis {
+  width: 95%;
+  -moz-animation: quality-analysis 2s ease;
+  -webkit-animation: quality-analysis 2s ease;
+}
+.git {
+  width: 75%;
+  -moz-animation: git 2s ease;
+  -webkit-animation: git 2s ease;
+}
+.xcode {
+  width: 50%;
+  -moz-animation: xcode 2s ease;
+  -webkit-animation: xcode 2s ease;
+}
+.swift {
+  width: 60%;
+  -moz-animation: swift 2s ease;
+  -webkit-animation: swift 2s ease;
 }
 
 @-moz-keyframes java {
