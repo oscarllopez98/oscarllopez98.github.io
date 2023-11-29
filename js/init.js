@@ -137,6 +137,9 @@
 
 //Custom JS
 
+
+//- - - - - Portfolio Content - - - - -
+
 //TrophyTeam Image on hover functions
 //On hovering image, fade text to black
 $("#portfolio-TrophyTeam").mouseenter(function() {
@@ -157,3 +160,38 @@ $("#portfolio-HCI").mouseenter(function() {
 $("#portfolio-HCI").mouseleave(function() {
   $(".portfolio-text-HCI").css("color","#b3b3b3");
 });
+
+
+//- - - - - Hobbies and Interests Content - - - - -
+
+//Guitar Video on hover functions
+//On hovering Video, fade text to black
+$("#video-guitar").mouseenter(function() {
+  $(".video-guitar-text").css("color","#000000");
+});
+//On exiting hovering video, fade text back to gray
+$("#video-guitar").mouseleave(function() {
+  $(".video-guitar-text").css("color","#b3b3b3");
+});
+
+//Standup Video on hover functions
+//On hovering Video, fade text to black
+$("#video-standup").mouseenter(function() {
+  $(".video-standup-text").css("color","#000000");
+});
+//On exiting hovering image, fade text back to gray
+$("#video-standup").mouseleave(function() {
+  $(".video-standup-text").css("color","#b3b3b3");
+});
+
+//Improv Video on hover functions
+//On hovering Video, fade text to black
+$("#video-improv").mouseenter(function() {
+  $(".video-improv-text").css("color","#000000");
+});
+//On exiting hovering image, fade text back to gray
+$("#video-improv").mouseleave(function() {
+  $(".video-improv-text").css("color","#b3b3b3");
+});
+
+
