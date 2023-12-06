@@ -45,8 +45,11 @@
         <ul id="nav" class="nav">
           <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
           <li><a class="smoothscroll" href="#about">About</a></li>
-          <li><a class="smoothscroll" href="#resume">Resume</a></li>
           <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+          <li><a class="smoothscroll" href="#resume">Resume</a></li>
+          <li><a class="smoothscroll" href="#hobbies-and-interests">Hobbies & Interests</a></li>
+
+
         </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -126,7 +129,7 @@
               </div>
               <div class="row portfolio-text">
                 <div class="column six">
-                  <p class="portfolio-text-HCI"> Human-Computer Interaction Term Project Homepage. I am hosting our team's homepage, which holds milestone/deliverable updates for my team's project (in progress). Click the image to see more!</p>
+                  <p class="portfolio-text-HCI"> Human-Computer Interaction Term Project Homepage. I am hosting the <i>Pear Programming</i> team homepage, which holds milestone/deliverable updates for my team's project. Click the image to see more!</p>
                 </div>
                 <div class="column six">
                   <p class="portfolio-text-TrophyTeam"> Android Application, utilizing Java, XML, and Google Firebase, that allows users to track cardio workouts in a user-friendly environment. Users can create and remove exercises. Click the image to see a demo!</p>
@@ -239,9 +242,7 @@
           </div>
 
           <div class="five columns">
-
             <div class="bars">
-
               <ul class="skills">
                 <li><span class="bar-expand OOP"></span><em>Object-Oriented Programming</em></li>
                 <li><span class="bar-expand java"></span><em>Java</em></li>
@@ -270,47 +271,124 @@
             </div><!-- end second column skill-bars -->
           </div> <!-- col end -->
 
-        </div> <!-- End skills -->
-
-
-        <div class="row">
           <div class="twelve columns">
             <p>Other Technical Skills and Software: XML, Bootstrap, jQuery, Unix, Google Firebase, JavaScript, data analysis, requirements gathering, QA, REST, Agile Scrum, Confluence, Jira, Github, Slack, Eclipse, G-Suite, Microsoft Office, Android Studio, Continuous Integration / Continuous Deployment, ADB</p> 
           </div>
-        </div>
 
-        
+
+        </div> <!-- End skills -->
       </section> <!-- Resume Section End-->
 
+      <!-- Hobbies & Interests Section ================================================== -->
 
-      <!-- footer
-        ================================================== -->
-        <footer id="social_media">
-          <div class="row">
-            <div class="twelve columns">
-              <ul class="social-links">
-                <li><a href="https://www.linkedin.com/in/oscar-lopez-b3b48a141/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                <li><a href="https://www.instagram.com/oscarllopez/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-              </ul>
-              <ul class="copyright">
-                <li>&copy; Copyright 2014 CeeVee</li>
-                <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
-              </ul>
+      <section id="hobbies-and-interests">
+        <div class="row">
+          <div class="nine columns main-col">
+            <h2>Hobbies & Interests</h2>
+          </div> <!-- end .main-col -->
+        </div>
+
+        <section id="hobbies-and-interests-body">
+          <div class="container">
+            <div class="row hobbies-and-interests-text">
+
+              <div class="four columns">
+                <div id="container-video-guitar" class="container-video">
+                  <p class="video-guitar-text">
+                    <i>Outtake</i>: Guitar recording practice! I've been playing 8+ years now. I love learning new and complicated patterns, 
+                    so John Mayer is always a favorite to learn from :) 
+                    <br>(Song: <i>The Heart of Life</i> by John Mayer)
+                  </p>
+                  <p id="video-guitar-text-clickhere" class="video-group-text-clickhere">Click here to watch!</p>
+                </div>
+              </div>
+
+              <div class="four columns">
+                <div id="container-video-standup" class="container-video">
+                  <p class="video-standup-text">
+                    My (brief) stint as an <i>amazing</i> comedian at Laughs Comedy Club in Seattle! I performed a 5 minutes set that I wrote in a standup comedy class, and I learned a lot about stage performance and helping people laugh!
+                  </p>
+                  <p id="video-standup-text-clickhere" class="video-group-text-clickhere">Click here to watch!</p> 
+                </div>
+              </div>
+
+              <div class="four columns">
+                <div id="container-video-improv" class="container-video">
+                  <p class="video-improv-text">
+                    A memorable improv scene I did with classmates at Unexpected Productions in Seattle, as a member of the infamous IHOP gang.
+                    Improv has become a special hobby of mine since I moved to Seattle. <i>"yes, and..."</i>
+                  </p>
+                  <p id="video-improv-text-clickhere" class="video-group-text-clickhere">Click here to watch!</p>                  
+                </div>
+              </div>
+
             </div>
-            <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+            <div id="video-group" class="row">
+
+              <div class="four columns">
+                <video id="video-guitar" class="zoom-hobbies-and-interests hobbies-and-interests-video" 
+                controls loading="lazy" poster="images/icon-Guitar.PNG">
+                  <source src="https://drive.google.com/uc?export=download&id=1o6BAaVSxAffCadViYfwfTlpx7PL-bzb4"
+                  type="video/mp4">
+                </video>
+              </div>
+
+              <div class="four columns">
+                <video id="video-standup" class="zoom-hobbies-and-interests hobbies-and-interests-video" 
+                controls loading="lazy" poster="images/icon-Microphone.PNG">
+                <source src="https://drive.google.com/uc?export=download&id=1pru1s7AnsBTl7C9-fZBG7DBU3QjzyLeN"
+                type="video/mp4">
+              </video>
+            </div>
+
+            <div class="four columns">
+              <video id="video-improv" class="zoom-hobbies-and-interests hobbies-and-interests-video" 
+              controls loading="lazy" poster="images/icon-Theatre.PNG">
+                <source src="https://drive.google.com/uc?export=download&id=1Xcr1TfETr0R86Xc5bxksLtgb19GrujO1"
+                type="video/mp4">
+              </video>
+            </div>
+
           </div>
-        </footer> <!-- Footer End-->
+        </div>
 
-        <!-- Java Script ================================================== -->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-          <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+        <div class="row">
+          <div class="twelve columns">
+            <p>Other Hobbies and Interests of mine include: weight-lifting, vocal training, playing soccer, traveling, board games, video games, fixing up this beautiful website, and many more I'm probably forgetting to list!</p> 
+          </div>
+        </div>
+      </section> <!-- Hobbies & Interests Section End -->
+    </section>
 
-          <script src="js/jquery.flexslider.js"></script>
-          <script src="js/waypoints.js"></script>
-          <script src="js/jquery.fittext.js"></script>
-          <script src="js/magnific-popup.js"></script>
-          <script src="js/init.js"></script>
 
-        </body>
-        </html>
+    <!-- footer ================================================== -->
+    <footer id="social_media">
+      <div class="row">
+        <div class="twelve columns">
+          <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/oscar-lopez-b3b48a141/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/oscarllopez/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+          </ul>
+          <ul class="copyright">
+            <li>&copy; Copyright 2014 CeeVee</li>
+            <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+          </ul>
+        </div>
+        <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+      </div>
+    </footer> <!-- Footer End-->
+
+    <!-- Java Script ================================================== -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+      <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+      <script src="js/jquery.flexslider.js"></script>
+      <script src="js/waypoints.js"></script>
+      <script src="js/jquery.fittext.js"></script>
+      <script src="js/magnific-popup.js"></script>
+      <script src="js/init.js"></script>
+
+    </body>
+    </html>

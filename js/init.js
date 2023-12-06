@@ -164,6 +164,7 @@ $("#portfolio-HCI").mouseleave(function() {
 
 //- - - - - Hobbies and Interests Content - - - - -
 
+
 //Guitar Video on hover functions
 //On hovering Video, fade text to black
 $("#video-guitar").mouseenter(function() {
@@ -179,6 +180,7 @@ $("#video-guitar").mouseleave(function() {
 $("#video-standup").mouseenter(function() {
   $(".video-standup-text").css("color","#000000");
 });
+
 //On exiting hovering image, fade text back to gray
 $("#video-standup").mouseleave(function() {
   $(".video-standup-text").css("color","#b3b3b3");
@@ -193,5 +195,62 @@ $("#video-improv").mouseenter(function() {
 $("#video-improv").mouseleave(function() {
   $(".video-improv-text").css("color","#b3b3b3");
 });
+
+
+//Clickers for Mobile View
+
+document.getElementById('video-guitar-text-clickhere').addEventListener('click', function() {
+// Replace "your-video-id" with the actual ID of your Google Drive video file
+var videoId = '1o6BAaVSxAffCadViYfwfTlpx7PL-bzb4';
+
+// Construct the Google Drive video URL
+var videoUrl = 'https://drive.google.com/file/d/' + videoId + '/preview';
+
+// Open the video in a new tab or window
+window.open(videoUrl, '_blank');
+});
+
+
+document.getElementById('video-standup-text-clickhere').addEventListener('click', function() {
+// Replace "your-video-id" with the actual ID of your Google Drive video file
+var videoId = '1pru1s7AnsBTl7C9-fZBG7DBU3QjzyLeN';
+
+// Construct the Google Drive video URL
+var videoUrl = 'https://drive.google.com/file/d/' + videoId + '/preview';
+
+// Open the video in a new tab or window
+window.open(videoUrl, '_blank');
+});
+
+
+document.getElementById('video-improv-text-clickhere').addEventListener('click', function() {
+   // Replace "your-video-id" with the actual ID of your Google Drive video file
+   var videoId = '1Xcr1TfETr0R86Xc5bxksLtgb19GrujO1';
+
+   // Construct the Google Drive video URL
+   var videoUrl = 'https://drive.google.com/file/d/' + videoId + '/preview';
+
+   // Open the video in a new tab or window
+   window.open(videoUrl, '_blank');
+});
+
+
+//Pausing other videos when one is Played
+
+var videos = document.querySelectorAll('.hobbies-and-interests-video');
+
+videos.forEach(function(video) {
+   video.addEventListener('play', function() {
+      pauseOtherVideos(video);
+   });
+});
+
+function pauseOtherVideos(currentVideo) {
+videos.forEach(function(video) {
+  if (video !== currentVideo) {
+    video.pause();
+  }
+});
+}
 
 

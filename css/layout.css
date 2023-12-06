@@ -17,8 +17,8 @@
    c. About Section
    d. Resume Section
    e. Portfolio Section
-   f. Call To Action Section
-   g. Testimonials Section
+   f. Hobbies and Skills Section 
+   g. Call To Action Section
    h. Contact Section
    i. Footer
 
@@ -597,8 +597,137 @@ ul#nav li.current a { color: #F06000; }
    opacity: 0;
 }
 
+
+
 /* ------------------------------------------------------------------ */
-/* f. Call To Action Section
+/* f. Hobbies and Interests Section
+/* ------------------------------------------------------------------ */
+
+#hobbies-and-interests {
+   background: #ebeeee;
+   padding-top: 90px;
+   padding-bottom: 60px;
+}
+#hobbies-and-interests h1 {
+   font: 15px/24px 'opensans-semibold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: center;
+   margin-bottom: 48px;
+   color: #95A3A3;
+}
+
+#video-guitar, #video-improv, #video-standup {
+   max-width: 80%;
+   max-height: 40%;
+   object-fit: cover;
+}
+
+.video-group-text-clickhere {
+   display: none;
+}
+
+
+.zoom-hobbies-and-interests {
+  transition: transform .2s; /* Animation */
+  transition: .5s;
+  margin: 0 auto;
+}
+
+.zoom-hobbies-and-interests:hover{
+  transform: scale(1.02);
+  border-color: #6bf0ff;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.hobbies-and-interests-text > div > p {
+  color: #b3b3b3;
+  -webkit-transition: color .8s ease;
+  -moz-transition: color .8s ease;
+  -o-transition: color .8s ease;
+  transition: color .8s ease;
+}
+
+
+.hobbies-and-interests-text > div > div > p {
+  color: #b3b3b3;
+  -webkit-transition: color .8s ease;
+  -moz-transition: color .8s ease;
+  -o-transition: color .8s ease;
+  transition: color .8s ease;
+}
+
+.video-guitar-text, .video-improv-text, .video-standup-text {
+  font-size: 12pt;
+  font-family: "Georgia", serif;
+  color: #474747;
+  -webkit-text-stroke: .1px black;
+}
+
+/* popup modal */
+.popup-modal {
+   max-width: 550px;
+   background: #fff;
+   position: relative;
+   margin: 0 auto;
+}
+.popup-modal .description-box { padding: 12px 36px 18px 36px; }
+.popup-modal .description-box h4 {
+   font: 15px/24px 'opensans-bold', sans-serif;
+   margin-bottom: 12px;
+   color: #111;
+}
+.popup-modal .description-box p {
+   font: 14px/24px 'opensans-regular', sans-serif;
+   color: #A1A1A1;
+   margin-bottom: 12px;
+}
+.popup-modal .description-box .categories {
+   font: 11px/21px 'opensans-light', sans-serif;
+   color: #A1A1A1;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   display: block;
+   text-align: left;
+}
+.popup-modal .description-box .categories i {
+   margin-right: 8px;
+}
+.popup-modal .link-box {
+   padding: 18px 36px;
+   background: #111;
+   text-align: left;
+}
+.popup-modal .link-box a {
+   color: #fff;
+   font: 11px/21px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   cursor: pointer;
+}
+.popup-modal a:hover {  color: #00CCCC; }
+.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
+
+@media only screen and (max-width: 767px) {
+
+
+   /** Hide video group if screen is getting too small & instead display links to videos **/
+   #video-group {
+      display: none;
+   }
+
+   #video-improv-text-clickhere, #video-guitar-text-clickhere, #video-standup-text-clickhere {
+      display: block;
+      color: #F06000;
+      cursor: pointer;
+   }
+
+}
+
+
+/* ------------------------------------------------------------------ */
+/* g. Call To Action Section
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
@@ -653,104 +782,6 @@ call-to-action .button {
 	font-family: 'opensans-semibold', sans-serif;
 	color: #D8D8D8;
 }
-
-
-/* ------------------------------------------------------------------ */
-/* h. Hobbies & Interests Section
-/* ------------------------------------------------------------------ */
-
-#hobbies-and-interests {
-   background: #ebeeee;
-   padding-top: 90px;
-   padding-bottom: 60px;
-}
-#hobbies-and-interests h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 1px;
-   text-align: center;
-   margin-bottom: 48px;
-   color: #95A3A3;
-}
-
-#video-guitar, #video-improv, #video-standup {
-   max-width: 80%;
-   max-height: 40%;
-   object-fit: cover;
-}
-
-.zoom-hobbies-and-interests {
-  transition: transform .2s; /* Animation */
-  transition: .5s;
-  margin: 0 auto;
-}
-
-.zoom-hobbies-and-interests:hover{
-  transform: scale(1.02);
-  border-color: #6bf0ff;
-  border-style: solid;
-  border-width: 2px;
-}
-
-.hobbies-and-interests-text > div > p {
-  color: #b3b3b3;
-  -webkit-transition: color .8s ease;
-  -moz-transition: color .8s ease;
-  -o-transition: color .8s ease;
-  transition: color .8s ease;
-}
-
-.hobbies-and-interests-text-HCI, .hobbies-and-interests-text-TrophyTeam {
-  font-size: 12pt;
-  font-family: "Georgia", serif;
-  color: #474747;
-  -webkit-text-stroke: .1px black;
-}
-
-/* popup modal */
-.popup-modal {
-   max-width: 550px;
-   background: #fff;
-   position: relative;
-   margin: 0 auto;
-}
-.popup-modal .description-box { padding: 12px 36px 18px 36px; }
-.popup-modal .description-box h4 {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin-bottom: 12px;
-   color: #111;
-}
-.popup-modal .description-box p {
-   font: 14px/24px 'opensans-regular', sans-serif;
-   color: #A1A1A1;
-   margin-bottom: 12px;
-}
-.popup-modal .description-box .categories {
-   font: 11px/21px 'opensans-light', sans-serif;
-   color: #A1A1A1;
-   text-transform: uppercase;
-   letter-spacing: 2px;
-   display: block;
-   text-align: left;
-}
-.popup-modal .description-box .categories i {
-   margin-right: 8px;
-}
-.popup-modal .link-box {
-   padding: 18px 36px;
-   background: #111;
-   text-align: left;
-}
-.popup-modal .link-box a {
-   color: #fff;
-   font: 11px/21px 'opensans-bold', sans-serif;
-   text-transform: uppercase;
-   letter-spacing: 3px;
-   cursor: pointer;
-}
-.popup-modal a:hover {  color: #00CCCC; }
-.popup-modal a.popup-modal-dismiss { margin-left: 24px; }
-
 
 
 

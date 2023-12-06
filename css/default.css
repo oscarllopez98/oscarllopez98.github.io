@@ -713,7 +713,6 @@ properly.
    /* block grids left clearing */
    .first { clear: none; }
    .s-first { clear: left; }
-
 }
 
 /* mobile wide/smaller tablets
