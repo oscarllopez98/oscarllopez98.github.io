@@ -20,9 +20,36 @@ body {
   margin: 0;
 }
 
-.test-mode{
+.test-mode {
   border: 1px solid red; /* For testn*/
 }
+
+.test-mode-blue {
+  border: 1px solid blue; /* For testn*/
+}
+
+/** Section: Navbar **/
+
+#navbar ul {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    display: inline-block;
+  }
+
+  li a {
+    font: 1em monospace;
+    padding: 0em 1em;
+    text-decoration: none;
+  }
+
+}
+
+
+
+
+
 
 /** Section: Home **/
 
@@ -46,7 +73,7 @@ body {
   padding-bottom: 3em;
 }
 
-#social-media-buttons{
+#social-media-buttons {
   list-style-type: none;
   padding: 0;
 }
@@ -56,7 +83,7 @@ body {
   font-size: 2.5em;
 }
 
-.social-media-icon{
+.social-media-icon {
   color: white;
   padding: 1em;
 }
