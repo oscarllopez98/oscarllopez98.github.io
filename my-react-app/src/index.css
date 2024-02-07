@@ -64,7 +64,6 @@ body {
   background-repeat: no-repeat;
 
   width: 100%;
-  min-height: 500px;
 
   h1 {
     font-size: 5em;
@@ -77,14 +76,13 @@ body {
     text-align: center;
 
     padding-top: 0;
-    margin-top: 0;
   }
 
   article {
-    margin: 10em 10em;
+    margin: 1em 1em;
+    padding: 0 12em;
   }
 
-  padding-bottom: 3em;
 }
 
 #social-media-buttons {

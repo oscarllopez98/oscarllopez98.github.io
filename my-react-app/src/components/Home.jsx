@@ -7,7 +7,6 @@ export default function Home() {
     const [width, setWidth] = useState(window.innerWidth);
     const [height, setHeight] = useState(window.innerHeight);
 
-
     // Update width and height state when the window is resized
     useEffect(() => {
         const handleResize = () => {
