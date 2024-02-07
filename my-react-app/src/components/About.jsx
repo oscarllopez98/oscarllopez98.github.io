@@ -12,21 +12,21 @@ export default function About() {
     return (
         <div id="about" className="test-mode-green">
             <div className="container">
-                <div className="col-4">
+                <div id="about-column-image" className="col-4">
                     <div className="image-container">
-                        <img src={imageURL} alt="Photo of Oscar Lopez smiling." />
+                    <img src={imageURL} alt="Photo of Oscar Lopez smiling." />
                     </div>
                 </div>
-                <div className="col-8">
+                <div id="about-column-text" className="col-8">
                     <h2>About Me</h2>
                     <article>{aboutMeDescription}</article>
                     <div className="container">
                         <div className="col-6">
                             <h3>Contact Details</h3>
                             <p>Oscar Lopez</p>
-                            <p>{aboutMeAddress}</p>
+                            <article>{aboutMeAddress}</article>
                             <br />
-                            <p>(478)290-7588</p>
+                            <p>(478) 290-7588</p>
                             <p>oscarllopez98@gmail.com</p>
                         </div>
                         <div className="col-6">
