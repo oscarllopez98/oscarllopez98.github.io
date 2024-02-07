@@ -6,10 +6,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
-  background-image: url('./assets/tree-background.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +22,10 @@ body {
 
 .test-mode-blue {
   border: 1px solid blue; /* For testn*/
+}
+
+.test-mode-green {
+  border: 1px solid green; /* For testn*/
 }
 
 /** Section: Navbar **/
@@ -47,14 +47,13 @@ body {
 }
 
 
-
-
-
-
 /** Section: Home **/
 
 #home{
   width: 100%;
+  background-image: url('./assets/tree-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   h1 {
     font-size: 5em;
@@ -86,4 +85,49 @@ body {
 .social-media-icon {
   color: white;
   padding: 1em;
+}
+
+
+
+/** Section: About **/
+
+#about {
+  width: 100%;
+  background-color: #2B2B2B;
+
+  h2, article {
+    text-align: left;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.col-4 {
+  flex: 4;
+  height: 100%;
+}
+
+.col-6 {
+  flex: 6;
+  height: 100%;
+}
+
+.col-8 {
+  flex: 8;
+  height: 100%;
+}
+
+.image-container {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
 }
