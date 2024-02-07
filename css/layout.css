@@ -627,6 +627,10 @@ ul#nav li.current a { color: #F06000; }
    display: none;
 }
 
+.video-container {
+   display: flex;
+}
+
 
 .zoom-hobbies-and-interests {
   transition: transform .2s; /* Animation */
