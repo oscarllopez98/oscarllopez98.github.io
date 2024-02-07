@@ -5,12 +5,19 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+  background-image: url('./assets/tree-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
 }
 
 .test-mode{
@@ -23,12 +30,17 @@
   width: 100%;
 
   h1 {
-    font-size: 3em;
+    font-size: 5em;
+    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   p {
     font: 1.1em sans-serif;
     text-align: center;
+
+    padding-top: 0;
+    margin-top: 0;
   }
 
   padding-bottom: 3em;
