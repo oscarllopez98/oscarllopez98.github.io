@@ -748,6 +748,11 @@ properly.
    .row .offset-9    { margin-left: 0%; }
    .row .offset-10   { margin-left: 0%; }
    .row .offset-11   { margin-left: 0%; }
+
+   /** Certificates **/
+   .cert-download {
+      text-align: center;
+   }
 }
 
 /* mobile narrow
