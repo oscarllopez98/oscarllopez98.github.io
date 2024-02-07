@@ -6,10 +6,6 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
 
-  background-image: url('./assets/tree-background.jpeg');
-  background-size: cover;
-  background-repeat: no-repeat;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -26,6 +22,10 @@ body {
 
 .test-mode-blue {
   border: 1px solid blue; /* For testn*/
+}
+
+.test-mode-green {
+  border: 1px solid green; /* For testn*/
 }
 
 /** Section: Navbar **/
@@ -47,14 +47,12 @@ body {
 }
 
 
-
-
-
-
 /** Section: Home **/
 
 #home{
-  width: 100%;
+  background-image: url('./assets/tree-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   h1 {
     font-size: 5em;
@@ -86,4 +84,81 @@ body {
 .social-media-icon {
   color: white;
   padding: 1em;
+}
+
+
+
+/** Section: About **/
+
+
+
+#about {
+  background-color: #2B2B2B;
+  padding: 0 20%;
+
+  h2, h3, article, p {
+    text-align: left;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+#about-column-image {
+  margin-right: 3em;
+}
+
+#about-column-text {
+  margin-left: 3em;
+}
+
+.col-4 {
+  flex: 4;
+  height: 100%;
+}
+
+.col-6 {
+  flex: 6;
+  height: 100%;
+}
+
+.col-8 {
+  flex: 8;
+  height: 100%;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+  transform: translate(0, 5em);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    max-width: 15em;
+    min-width: 15em;
+    max-width: 15em;
+    min-height: 15em;
+    border-radius: 50%;
+    display: block;
+  }
+}
+
+.button-resume {
+  width: 70%;
+  margin: 1em 0em;
+  padding: 1em;
+  background-color: gray;
+  transition: background-color 0.5s ease;
+
+  font: 1.2em monospace;
+}
+
+.button-resume:hover {
+  cursor: pointer;
+  background-color: steelblue;
 }
