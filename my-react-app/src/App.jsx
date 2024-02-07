@@ -1,10 +1,11 @@
 import './App.css'
+import Home from './components/Home'
 
 function App() {
 
   return (
     <>
-      <section id='home'>HOME</section>
+      <Home/>
       <section id='about'>ABOUT</section>
       <section id='portfolio'>PORTFOLIO</section>
       <section id='resume'>RESUME</section>
