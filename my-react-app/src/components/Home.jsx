@@ -1,7 +1,7 @@
 export default function Home() {
     return (
         <div id="home" className="test-mode">
-            <p>I'm Oscar Lopez</p>
+            <h1>I'm Oscar Lopez.</h1>
             <p>Description</p>
             <p>Social Media Buttons</p>
             <p>Navigation Arrow</p>
