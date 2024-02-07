@@ -50,7 +50,6 @@ body {
 /** Section: Home **/
 
 #home{
-  width: 100%;
   background-image: url('./assets/tree-background.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
@@ -92,8 +91,8 @@ body {
 /** Section: About **/
 
 #about {
-  width: 100%;
   background-color: #2B2B2B;
+  padding: 1%;
 
   h2, article {
     text-align: left;
@@ -122,6 +121,7 @@ body {
 .image-container {
   width: 50%;
   height: 50%;
+  /* transform: translate(1em, 1em); */
   border-radius: 50%;
   overflow: hidden;
 
@@ -130,4 +130,19 @@ body {
     height: 100%;
     display: block;
   }
+}
+
+.button-resume {
+  width: 70%;
+  margin: 1em 0em;
+  padding: 1em;
+  background-color: gray;
+  transition: background-color 0.5s ease;
+
+  font: 1.2em monospace;
+}
+
+.button-resume:hover {
+  cursor: pointer;
+  background-color: steelblue;
 }
