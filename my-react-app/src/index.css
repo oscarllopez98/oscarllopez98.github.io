@@ -13,10 +13,38 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.test-mode {
+.test-mode{
   border: 1px solid red; /* For testn*/
 }
 
-#home {
+/** Section: Home **/
+
+#home{
   width: 100%;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  p {
+    font: 1.1em sans-serif;
+    text-align: center;
+  }
+
+  padding-bottom: 3em;
+}
+
+#social-media-buttons{
+  list-style-type: none;
+  padding: 0;
+}
+
+#social-media-buttons li {
+  display: inline-block;
+  font-size: 2.5em;
+}
+
+.social-media-icon{
+  color: white;
+  padding: 1em;
 }
