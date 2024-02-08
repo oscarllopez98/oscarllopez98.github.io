@@ -31,11 +31,14 @@ export default function Home() {
     return (
         <header id="home" className="test-mode" style={{ height: height }}>
             <Navbar />
-            <div id="home-text">
-                <h1>I'm Oscar Lopez.</h1>
-                <article dangerouslySetInnerHTML={{ __html: description}}></article>
-                <SocialMediaButtons />
+            <div id="home-container">
+                <div id="home-text">
+                    <h1>I'm Oscar Lopez.</h1>
+                    <article dangerouslySetInnerHTML={{ __html: description }}></article>
+                    <SocialMediaButtons />
+                </div>
             </div>
+
 
             <p>Navigation Arrow</p>
         </header>
