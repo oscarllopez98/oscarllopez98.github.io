@@ -56,31 +56,44 @@ body {
   background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
 }
 
-#home{
+#home {
   background-image: url('./assets/header-background.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
   width: 100%;
 
   h1 {
+    font-family: 'Roboto';
+    color: white;
     font-size: 5em;
     padding-bottom: 0;
     margin-bottom: 0;
   }
 
-  article, p {
-    font: 1.1em sans-serif;
-    text-align: center;
-
-    padding-top: 0;
-  }
 }
 
+
 #home-text {
-  padding: 0 5em;
-  margin: 0 5em;
+
+  width: 55%;
+  text-align: center;
+
+  article {
+    font-family: 'Roboto';
+    color: #A8A8A8;
+    font-size: 1.5em;
+  }
+
+  span {
+    font-family: 'Roboto';
+    color: white;
+  }
 }
 
 #social-media-buttons {

@@ -1,0 +1,72 @@
+/** Fonts **/
+@font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Black.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-BlackItalic.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-BoldItalic.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Light.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-LightItalic.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-MediumItalic.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('my-react-app/src/assets/fonts/Roboto/Roboto-ThinItalic.ttf') format('truetype');
+    /* Add additional font-weight and font-style rules as needed */
+  }
