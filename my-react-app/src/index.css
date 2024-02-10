@@ -29,9 +29,21 @@ body {
 }
 
 /** Section: Navbar **/
+#navbar {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  /* z-index: 1000; */
+  /* transition: transform 0.3s ease-in-out; Smooth transition for hiding/showing */
+}
+
+#navbar.hidden {
+  /* transform: translateY(-100%); Move Navbar offscreen when hidden */
+}
 
 #navbar ul {
   list-style-type: none;
+  margin: 0;
   padding: 0;
 
   li {
@@ -39,36 +51,71 @@ body {
   }
 
   li a {
-    font: 1em monospace;
-    padding: 0em 1em;
+    font: 1.1em monospace;
+    letter-spacing: 2.5px;
+    color: white;
+    padding: 1em; /* Add padding to make the links clickable */
     text-decoration: none;
   }
 
 }
 
-
 /** Section: Home **/
+#home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+}
 
-#home{
-  background-image: url('./assets/tree-background.jpeg');
+#home {
+  background-image: url('./assets/header-background.jpg');
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 
+  width: 100%;
+  display: flex;
+  position: relative; /* Ensure Home container respects Navbar height */
+  padding-top: 50px; /* Adjust padding to accommodate Navbar height */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
   h1 {
-    font-size: 5em;
-    padding-bottom: 0;
-    margin-bottom: 0;
+    font-family: 'Roboto';
+    color: white;
+    font-size: 5.5em;
   }
 
-  p {
-    font: 1.1em sans-serif;
-    text-align: center;
+}
 
-    padding-top: 0;
-    margin-top: 0;
+#home-container {
+  display: flex;
+  justify-content: center;
+  max-width: 1200px; 
+  width: 100%;
+}
+
+
+#home-text {
+
+  text-align: center;
+  width: 80%; /* Adjust width for better responsiveness */
+  max-width: 800px; /* Limit maximum width for better readability */
+
+  article {
+    font-family: 'Roboto';
+    color: #A8A8A8;
+    font-size: 1.5em;
   }
 
-  padding-bottom: 3em;
+  span {
+    font-family: 'Roboto';
+    color: white;
+  }
 }
 
 #social-media-buttons {
