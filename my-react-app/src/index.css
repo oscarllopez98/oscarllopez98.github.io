@@ -137,47 +137,21 @@ body {
 
 /** Section: About **/
 
-
-
 #about {
   background-color: #2B2B2B;
 
-  h2, h3, article, p {
+  h3 {
+    color: white;
+  }
+
+  p {
+    color: rgb(121, 121, 121);
     text-align: left;
+    font-size: 12pt;
+    line-height: 2;
   }
 }
 
-.temp-container {
-  display: flex;
-}
-
-#about-column-image {
-  margin-right: 3em;
-}
-
-#about-column-text {
-  margin-left: 3em;
-}
-
-.image-container {
-  width: 100%;
-  height: 100%;
-  transform: translate(0, 5em);
-  position: relative;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    max-width: 15em;
-    min-width: 15em;
-    max-width: 15em;
-    min-height: 15em;
-    border-radius: 50%;
-    display: block;
-  }
-}
 
 .button-resume {
   width: 70%;
