@@ -141,14 +141,13 @@ body {
 
 #about {
   background-color: #2B2B2B;
-  padding: 0 20%;
 
   h2, h3, article, p {
     text-align: left;
   }
 }
 
-.container {
+.temp-container {
   display: flex;
 }
 
@@ -158,21 +157,6 @@ body {
 
 #about-column-text {
   margin-left: 3em;
-}
-
-.col-4 {
-  flex: 4;
-  height: 100%;
-}
-
-.col-6 {
-  flex: 6;
-  height: 100%;
-}
-
-.col-8 {
-  flex: 8;
-  height: 100%;
 }
 
 .image-container {
@@ -209,3 +193,34 @@ body {
   cursor: pointer;
   background-color: steelblue;
 }
+
+
+
+/** Section: Portfolio **/
+
+.row {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+#portfolio {
+  background-color: #ebeeee;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+#portfolio h2 {
+  text-align: left;
+  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-left: calc(var(--bs-gutter-x) * .5);
+}
+
+.portfolio-text {
+  font-size: 14pt;
+  padding-top: 1em;
+  -webkit-text-stroke: 0.1px black;
+  text-align: left;
+}
+
+
