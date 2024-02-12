@@ -173,9 +173,15 @@ body {
 
 #about {
   background-color: #2B2B2B;
+  padding: 60px 0;
 
   .container {
-    padding: 60px 0;
+    height: 100%;
+
+    .row {
+      height: 100%;
+    }
+    
   }
 
   h3 {
@@ -197,8 +203,11 @@ body {
     padding-top: 3rem;
   }
 
+  #img-column, #text-column {
+    height: 100%;
+  }
+
   .button-download {
-    color: white;
     background-color: #444;
     border-color: #444;
     width: 80%;
@@ -209,10 +218,17 @@ body {
     text-align: center;
   }
 
-  #download-resume-buttons > button {
+  #download-resume-buttons > button{
     margin: 1rem 0;
     padding: 1rem 0;
     font-weight: bold;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding-left: 1rem;
+    }
   }
 
   #contact-details p {
