@@ -11,62 +11,43 @@ export default function About() {
 
     return (
         <div id="about">
-            <div className="row">
-                <div className="col-3">
-                    <img src={imageURL} alt="Picture of Oscar Lopez smiling." className="img-fluid rounded-circle"/>
-                </div>
-                <div className="col-9">
-                    <div className="row">
-                        <div className="col">
-                            <h3 className="h3">About Me</h3>
-                        </div>
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 d-md-none">
                     </div>
-                    <div className="row">
-                        <div className="col">
-                            <p className="lead about-me-text">{aboutMeDescription}</p>
-                        </div>
+                    <div id="img-column" className="col-12 col-md-3 col-lg-3 d-none d-md-block">
+                        <img src={imageURL} alt="Picture of Oscar Lopez smiling." className="img-fluid rounded-circle" />
                     </div>
-                    <div className="row">
-                        <div className="col">
-                            <h3 className="h3">Contact Details</h3>
-                            <p className="about-me-text">{aboutMeAddress}</p>
-                            <p className="about-me-text">(478) 290-7588</p>
-                            <p className="about-me-text">oscarllopez98@gmail.com</p>
-                        </div>
-                        <div className="col">
-                            <p>Button 1</p>
-                            <p>Button 2</p>
+                    <div className="col-12 col-md-9 col-lg-9 text-center">
+                        <div id="text-content">
+                            <div className="row">
+                                <div className="col">
+                                    <h3 className="h3">About Me</h3>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col">
+                                    <p className="lead about-me-text">{aboutMeDescription}</p>
+                                </div>
+                            </div>
+                            <div className="row align-items-center">
+                                <div id="contact-details" className="col-12 col-md-6 col-lg-6">
+                                    <h3 className="h3">Contact Details</h3>
+                                    <p className="about-me-text">Oscar Lopez</p>
+                                    <p className="about-me-text">{aboutMeAddress}</p>
+                                    <p className="about-me-text">(478) 290-7588</p>
+                                    <p className="about-me-text">oscarllopez98@gmail.com</p>
+                                </div>
+                                <div id="download-resume-buttons" className="col-12 col-md-6 col-lg-6">
+                                    <DownloadButton title="Download QA Resume" pathToDownload="#" buttonType="download"/>
+                                    <DownloadButton title="Download SDE Resume" pathToDownload="#" buttonType="download"/>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        // <div id="about" className="test-mode-green">
-        //     <div className="temp-container">
-        //         <div id="about-column-image" className="col-4">
-        //             <div className="image-container">
-        //             <img src={imageURL} alt="Photo of Oscar Lopez smiling." />
-        //             </div>
-        //         </div>
-        //         <div id="about-column-text" className="col-8">
-        //             <h2>About Me</h2>
-        //             <article>{aboutMeDescription}</article>
-        //             <div className="temp-container">
-        //                 <div className="col-6">
-        //                     <h3>Contact Details</h3>
-        //                     <p>Oscar Lopez</p>
-        //                     <article>{aboutMeAddress}</article>
-        //                     <br />
-        //                     <p>(478) 290-7588</p>
-        //                     <p>oscarllopez98@gmail.com</p>
-        //                 </div>
-        //                 <div className="col-6">
-        //                     <div><DownloadButton title={'Download Resume: QA'} pathToDownload={null} buttonType={'resume'} /></div>
-        //                     <div><DownloadButton title={'Download Resume: SDE'} pathToDownload={null} buttonType={'resume'}/></div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </div>
+
     );
 }
