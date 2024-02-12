@@ -1,3 +1,13 @@
+/**
+STYLE SECTIONS
+1. Navbar + Home
+2. About
+3. Portfolio
+4. Resume
+5. Hobbies and Interests
+**/
+
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -30,35 +40,54 @@ body {
 
 /** Section: Navbar **/
 #navbar {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  /* z-index: 1000; */
-  /* transition: transform 0.3s ease-in-out; Smooth transition for hiding/showing */
-}
+  width: 50%;
+  left: 0;
 
-#navbar.hidden {
-  /* transform: translateY(-100%); Move Navbar offscreen when hidden */
-}
-
-#navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-
-  li {
-    display: inline-block;
-  }
-
-  li a {
-    font: 1.1em monospace;
-    letter-spacing: 2.5px;
+  a {
     color: white;
-    padding: 1em; /* Add padding to make the links clickable */
-    text-decoration: none;
+  }
+}
+
+/** Styles if menu is closed **/
+.navbar-filled {
+  background-color: rgb(28, 26, 27, 1);
+}
+
+/** Styles if menu is open **/
+.navbar-transparent {
+  background-color: rgb(28, 26, 27, 0);
+}
+
+/** Navbar collapsed icon and button **/
+.navbar-toggler {
+  background-color: #F06000;
+
+  .navbar-toggler-icon {
+    background-color: #F06000;
+
+  }
+}
+
+.nav-link {
+  letter-spacing: .1rem;
+  font-size: 9pt;
+}
+
+
+/** Exclusive to desktop **/
+@media (min-width: 992px) {
+  #navbar, #navbar-container {
+    background-color: rgb(0, 0, 0, 0);
+    width: 100%;
+  }
+
+  #navbarNavDropdown {
+    justify-content: center;
+    color: white;
   }
 
 }
+
 
 /** Section: Home **/
 #home::before {
@@ -135,6 +164,11 @@ body {
 
 
 
+
+
+
+
+
 /** Section: About **/
 
 #about {
@@ -167,6 +201,13 @@ body {
   cursor: pointer;
   background-color: steelblue;
 }
+
+
+
+
+
+
+
 
 
 

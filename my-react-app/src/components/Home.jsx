@@ -29,11 +29,11 @@ export default function Home() {
      <span>Start scrolling</span> and discover more <span>about me!</span>`
 
     return (
-        <header id="home" className="test-mode" style={{ height: height }}>
+        <header id="home" className="" style={{ height: height }}>
             <Navbar />
             <div id="home-container">
                 <div id="home-text">
-                    <h1>I'm Oscar Lopez.</h1>
+                    <h1><b>I'm Oscar Lopez.</b></h1>
                     <article dangerouslySetInnerHTML={{ __html: description }}></article>
                     <SocialMediaButtons />
                 </div>
