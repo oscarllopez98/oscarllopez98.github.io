@@ -1,13 +1,43 @@
+import { useState } from "react";
+
 export default function Navbar() {
+
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    function handleClick() {
+        //setIsMenuOpen(menuOpen => !menuOpen);
+        setIsMenuOpen(prevIsMenuOpen => {
+            console.log("Current value: " + prevIsMenuOpen + " but switching to: " + !prevIsMenuOpen);
+            return !prevIsMenuOpen;
+        });
+    }
+
     return (
-        <nav id="navbar" className="test-mode-blue">
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PORTFOLIO</a></li>
-                <li><a href="">RESUME</a></li>
-                <li><a href="">HOBBIES & INTERESTS</a></li>
-            </ul>
+        <nav id="navbar" className={`navbar navbar-expand-lg position-absolute top-0 navbar-${isMenuOpen ? 'filled' : 'transparent'}`}>
+            <div id="navbar-container" className="container-fluid">
+                <button onClick={handleClick} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <i className="fa-solid fa-bars navbar-toggler-icon"></i>
+                </button>
+                <div id="navbarNavDropdown" className="collapse navbar-collapse">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">PORTFOLIO</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">RESUME</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">HOBBIES & INTEREST</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     );
 }
