@@ -369,7 +369,25 @@ body {
 @media (max-width: 575.98px) {
   .grid-container {
     grid-template-areas:
-      '';
+    'hci'
+    'trophy'
+    'personal'
+    ;
+    padding: 20px 30px;
+  }
+
+  .item-vertical {
+    height: auto;
+    width: 40%;
+  }
+
+  .item-horizontal {
+    height: auto;
+    width: 70%;
+  }
+
+  .card-body p {
+    font-size: 1rem;
   }
 }
 
@@ -377,7 +395,25 @@ body {
 @media (min-width: 576px) and (max-width: 767.98px) {
   .grid-container {
     grid-template-areas:
-      '';
+    'hci'
+    'trophy'
+    'personal'
+    ;
+    padding: 20px 30px;
+  }
+
+  .item-vertical {
+    height: auto;
+    width: 40%;
+  }
+
+  .item-horizontal {
+    height: auto;
+    width: 70%;
+  }
+
+  .card-body p {
+    font-size: 1rem;
   }
 }
 
@@ -385,7 +421,23 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .grid-container {
     grid-template-areas:
-      '';
+    'hci hci hci hci  trophy trophy trophy trophy personal personal personal personal'
+    ;
+    padding: 20px 30px;
+  }
+
+  .item-vertical {
+    height: auto;
+    width: 50%;
+  }
+
+  .item-horizontal {
+    height: auto;
+    width: 100%;
+  }
+
+  .card-body p {
+    font-size: 1rem;
   }
 }
 

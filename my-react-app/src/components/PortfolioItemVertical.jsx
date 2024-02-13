@@ -2,6 +2,9 @@ export default function PortfolioItemVertical({ item }) {
     return (
         <>
             <div id={item['id']} class="card">
+                <a href={item['href']} target="_blank">
+                    <img src={item['thumbnailSrc']} alt={item['alt']} className="card-img-top item-vertical" />
+                </a>
                 <div class="card-body">
                     <h5 class="card-title">{item['title']}</h5>
                     <p class="card-text lead">{item['text']}</p>
@@ -12,9 +15,6 @@ export default function PortfolioItemVertical({ item }) {
                         </small>
                     </p>
                 </div>
-                <a href={item['href']} target="_blank">
-                    <img src={item['thumbnailSrc']} alt={item['alt']} className="card-img-bottom item-vertical" />
-                </a>
             </div>
         </>
     );
