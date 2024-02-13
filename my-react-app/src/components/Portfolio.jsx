@@ -10,7 +10,8 @@ export default function Portfolio() {
         href: 'https://oscarllopez98.github.io/HCITermProject/index.html',
         thumbnailSrc: 'src/assets/thumbnails/HCI_Thumbnail.png',
         alt: 'HCI Project Thumbnail',
-        text: 'Human-Computer Interaction Term Project Homepage. I am hosting the Pear Programming team homepage, which holds milestone/deliverable updates for my team\'s project. Click the image to see more!'
+        text: 'Human-Computer Interaction Term Project Homepage. I am hosting the Pear Programming team homepage, which holds milestone/deliverable updates for my team\'s project. Click the image to see more!',
+        skills: ['UX Design', 'Front-End Design/Devlopment', 'Web Development', 'IRB Training', 'Figma', 'Ideation', 'Prototyping']
     }
 
     const HCI_2 = {
@@ -19,7 +20,8 @@ export default function Portfolio() {
         href: 'https://oscarllopez98.github.io/HCITermProject/index.html',
         thumbnailSrc: 'src/assets/thumbnails/HCI_Thumbnail.png',
         alt: 'HCI Project Thumbnail',
-        text: 'Human-Computer Interaction Term Project Homepage. I am hosting the Pear Programming team homepage, which holds milestone/deliverable updates for my team\'s project. Click the image to see more!'
+        text: 'Human-Computer Interaction Term Project Homepage. I am hosting the Pear Programming team homepage, which holds milestone/deliverable updates for my team\'s project. Click the image to see more!',
+        skills: ['UX Design', 'Front-End Design/Devlopment', 'Web Development', 'IRB Training', 'Figma', 'Ideation', 'Prototyping']
     }
 
     const TROPHY = {
@@ -28,7 +30,8 @@ export default function Portfolio() {
         href: 'https://drive.google.com/file/d/1KXSNh4wBloaf5DOmCBWUax9bKdHCEOpz/view?usp=sharing',
         thumbnailSrc: 'src/assets/thumbnails/TrophyTeam_Thumbnail.png',
         alt: 'TrophyTeam Project Thumbnail',
-        text: 'Android Application, utilizing Java, XML, and Google Firebase, that allows users to track cardio workouts in a user-friendly environment. Users can create and remove exercises. Click the image to see a demo!'
+        text: 'Android Application, utilizing Java, XML, and Google Firebase, that allows users to track cardio workouts in a user-friendly environment. Users can create and remove exercises. Click the image to see a demo!',
+        skills: ['Android Development', 'Java', 'XML', 'Mobile Development', 'Cloud Database', 'Mobile Development', 'Figma']
     }
 
     return (

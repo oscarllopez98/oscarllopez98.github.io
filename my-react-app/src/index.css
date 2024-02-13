@@ -393,7 +393,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .grid-container {
     grid-template-areas:
-      'hci trophy hci2'
+    'hci hci hci hci  trophy trophy trophy trophy hci2 hci2 hci2 hci2'
     ;
     padding: 20px 30px;
   }
@@ -417,7 +417,7 @@ body {
 @media (min-width: 1200px) {
   .grid-container {
     grid-template-areas:
-      'hci trophy hci2'
+    'hci hci hci hci hci trophy trophy trophy trophy hci2 hci2 hci2 hci2 hci2'
     ;
     padding: 20px 40px;
   }
