@@ -116,10 +116,65 @@ body {
   h1 {
     font-family: 'Roboto';
     color: white;
-    font-size: 5.5em;
   }
 
 }
+
+/* Default font size for .responsive-header */
+.responsive-header {
+    font-size: 4.7rem; /* Adjust the default font size as needed */
+    font-weight: bolder;
+}
+
+#responsive-article {
+  font-size: 1rem;
+}
+
+/* Media queries for different screen sizes */
+@media (max-width: 576px) {
+    /* Small devices (e.g., phones) */
+    .responsive-header {
+        font-size: 2.6rem; /* Adjust the font size for small devices */
+    }
+
+    #responsive-article {
+      font-size: 1rem; /* Increase the font size for extra large devices */ 
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    /* Medium devices (e.g., tablets) */
+    .responsive-header {
+        font-size: 3.3rem; /* Adjust the font size for medium devices */
+    }
+
+    #responsive-article {
+      font-size: 1.1rem; /* Increase the font size for extra large devices */ 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    /* Large devices (e.g., small desktops) */
+    .responsive-header {
+        font-size: 4rem; /* Revert to default font size for large devices */
+    }
+
+    #responsive-article {
+      font-size: 1.3rem; /* Increase the font size for extra large devices */ 
+    }
+}
+
+@media (min-width: 992px) {
+    /* Extra large devices (e.g., large desktops) */
+    .responsive-header {
+        font-size: 4.7rem; /* Increase the font size for extra large devices */
+    }
+
+    #responsive-article{
+      font-size: 1.5rem; /* Increase the font size for extra large devices */ 
+    }
+}
+
 
 #home-container {
   display: flex;
@@ -138,7 +193,6 @@ body {
   article {
     font-family: 'Roboto';
     color: #A8A8A8;
-    font-size: 1.5em;
   }
 
   span {
@@ -162,6 +216,10 @@ body {
   padding: 1em;
 }
 
+#circle-arrow-down {
+  color: white;
+  font-size: 2.5em;
+}
 
 
 
@@ -173,10 +231,24 @@ body {
 
 #about {
   background-color: #2B2B2B;
+  padding: 60px 0;
+
+  .container {
+    height: 100%;
+
+    .row {
+      height: 100%;
+    }
+    
+  }
 
   h3 {
     color: white;
-  }
+    font-size: 1.3rem;
+    text-align: left;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
 
   p {
     color: rgb(121, 121, 121);
@@ -184,6 +256,47 @@ body {
     font-size: 12pt;
     line-height: 2;
   }
+
+  img {
+    padding-top: 3rem;
+  }
+
+  #img-column, #text-column {
+    height: 100%;
+  }
+
+  .button-download {
+    background-color: #444;
+    border-color: #444;
+    width: 80%;
+    border-radius: 2px;
+  }
+
+  #download-resume-buttons p {
+    text-align: center;
+  }
+
+  #download-resume-buttons > button{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    font-weight: bold;
+    width: 100%;
+
+    a {
+      text-decoration: none;
+      color: white;
+      padding-left: 1rem;
+    }
+  }
+
+  #contact-details p {
+    line-height: 0.8;
+  }
+}
+
+/** Exclusive to Desktop **/
+@media (min-width: 992px) {
+  
 }
 
 

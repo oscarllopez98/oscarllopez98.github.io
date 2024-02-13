@@ -1,6 +1,9 @@
 import SocialMediaButtons from "./SocialMediaButtons";
 import Navbar from "./Navbar";
 import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
+
 
 export default function Home() {
 
@@ -29,18 +32,19 @@ export default function Home() {
      <span>Start scrolling</span> and discover more <span>about me!</span>`
 
     return (
-        <header id="home" className="" style={{ height: height }}>
+        <header id="home" className="pt-3 pt-md-5" style={{ height: height }}>
             <Navbar />
             <div id="home-container">
-                <div id="home-text">
-                    <h1><b>I'm Oscar Lopez.</b></h1>
-                    <article dangerouslySetInnerHTML={{ __html: description }}></article>
+                <div id="home-text" className="text-center">
+                    <h1 className="responsive-header">I'm Oscar Lopez.</h1>
+                    <article id="responsive-article" className="lead lead-md" dangerouslySetInnerHTML={{ __html: description }}></article>
+                    <br />
                     <SocialMediaButtons />
                 </div>
             </div>
-
-
-            <p>Navigation Arrow</p>
+            <div class="row">
+                <a id="circle-arrow-down" className="align-self-end" href="#"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
+            </div>
         </header>
     );
 }
