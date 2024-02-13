@@ -27,15 +27,18 @@ body {
 }
 
 .test-mode {
-  border: 1px solid red; /* For testn*/
+  border: 1px solid red;
+  /* For testn*/
 }
 
 .test-mode-blue {
-  border: 1px solid blue; /* For testn*/
+  border: 1px solid blue;
+  /* For testn*/
 }
 
 .test-mode-green {
-  border: 1px solid green; /* For testn*/
+  border: 1px solid green;
+  /* For testn*/
 }
 
 /** Section: Navbar **/
@@ -76,7 +79,9 @@ body {
 
 /** Exclusive to desktop **/
 @media (min-width: 992px) {
-  #navbar, #navbar-container {
+
+  #navbar,
+  #navbar-container {
     background-color: rgb(0, 0, 0, 0);
     width: 100%;
   }
@@ -85,7 +90,6 @@ body {
     justify-content: center;
     color: white;
   }
-
 }
 
 
@@ -96,7 +100,8 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.1); /* Adjust opacity as needed */
+  background-color: rgba(0, 0, 0, 0.1);
+  /* Adjust opacity as needed */
 }
 
 #home {
@@ -107,8 +112,10 @@ body {
 
   width: 100%;
   display: flex;
-  position: relative; /* Ensure Home container respects Navbar height */
-  padding-top: 50px; /* Adjust padding to accommodate Navbar height */
+  position: relative;
+  /* Ensure Home container respects Navbar height */
+  padding-top: 50px;
+  /* Adjust padding to accommodate Navbar height */
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -122,8 +129,9 @@ body {
 
 /* Default font size for .responsive-header */
 .responsive-header {
-    font-size: 4.7rem; /* Adjust the default font size as needed */
-    font-weight: bolder;
+  font-size: 4.7rem;
+  /* Adjust the default font size as needed */
+  font-weight: bolder;
 }
 
 #responsive-article {
@@ -132,54 +140,66 @@ body {
 
 /* Media queries for different screen sizes */
 @media (max-width: 576px) {
-    /* Small devices (e.g., phones) */
-    .responsive-header {
-        font-size: 2.6rem; /* Adjust the font size for small devices */
-    }
 
-    #responsive-article {
-      font-size: 1rem; /* Increase the font size for extra large devices */ 
-    }
+  /* Small devices (e.g., phones) */
+  .responsive-header {
+    font-size: 2.6rem;
+    /* Adjust the font size for small devices */
+  }
+
+  #responsive-article {
+    font-size: 1rem;
+    /* Increase the font size for extra large devices */
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-    /* Medium devices (e.g., tablets) */
-    .responsive-header {
-        font-size: 3.3rem; /* Adjust the font size for medium devices */
-    }
 
-    #responsive-article {
-      font-size: 1.1rem; /* Increase the font size for extra large devices */ 
-    }
+  /* Medium devices (e.g., tablets) */
+  .responsive-header {
+    font-size: 3.3rem;
+    /* Adjust the font size for medium devices */
+  }
+
+  #responsive-article {
+    font-size: 1.1rem;
+    /* Increase the font size for extra large devices */
+  }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-    /* Large devices (e.g., small desktops) */
-    .responsive-header {
-        font-size: 4rem; /* Revert to default font size for large devices */
-    }
 
-    #responsive-article {
-      font-size: 1.3rem; /* Increase the font size for extra large devices */ 
-    }
+  /* Large devices (e.g., small desktops) */
+  .responsive-header {
+    font-size: 4rem;
+    /* Revert to default font size for large devices */
+  }
+
+  #responsive-article {
+    font-size: 1.3rem;
+    /* Increase the font size for extra large devices */
+  }
 }
 
 @media (min-width: 992px) {
-    /* Extra large devices (e.g., large desktops) */
-    .responsive-header {
-        font-size: 4.7rem; /* Increase the font size for extra large devices */
-    }
 
-    #responsive-article{
-      font-size: 1.5rem; /* Increase the font size for extra large devices */ 
-    }
+  /* Extra large devices (e.g., large desktops) */
+  .responsive-header {
+    font-size: 4.7rem;
+    /* Increase the font size for extra large devices */
+  }
+
+  #responsive-article {
+    font-size: 1.5rem;
+    /* Increase the font size for extra large devices */
+  }
 }
 
 
 #home-container {
   display: flex;
   justify-content: center;
-  max-width: 1200px; 
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -187,8 +207,10 @@ body {
 #home-text {
 
   text-align: center;
-  width: 80%; /* Adjust width for better responsiveness */
-  max-width: 800px; /* Limit maximum width for better readability */
+  width: 80%;
+  /* Adjust width for better responsiveness */
+  max-width: 800px;
+  /* Limit maximum width for better readability */
 
   article {
     font-family: 'Roboto';
@@ -239,7 +261,7 @@ body {
     .row {
       height: 100%;
     }
-    
+
   }
 
   h3 {
@@ -248,7 +270,7 @@ body {
     text-align: left;
     font-weight: bold;
     padding-bottom: 1rem;
-}
+  }
 
   p {
     color: rgb(121, 121, 121);
@@ -261,7 +283,8 @@ body {
     padding-top: 3rem;
   }
 
-  #img-column, #text-column {
+  #img-column,
+  #text-column {
     height: 100%;
   }
 
@@ -276,7 +299,7 @@ body {
     text-align: center;
   }
 
-  #download-resume-buttons > button{
+  #download-resume-buttons>button {
     margin: 1rem 0;
     padding: 1rem 0;
     font-weight: bold;
@@ -295,9 +318,7 @@ body {
 }
 
 /** Exclusive to Desktop **/
-@media (min-width: 992px) {
-  
-}
+@media (min-width: 992px) {}
 
 
 .button-resume {
@@ -334,21 +355,108 @@ body {
 
 #portfolio {
   background-color: #ebeeee;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 0;
 }
 
-#portfolio h2 {
-  text-align: left;
-  padding-right: calc(var(--bs-gutter-x) * .5);
-  padding-left: calc(var(--bs-gutter-x) * .5);
+/** Grid Styles **/
+.grid-container {
+  display: grid;
+  gap: 10px;
+  padding: 10px;
 }
 
-.portfolio-text {
-  font-size: 14pt;
-  padding-top: 1em;
-  -webkit-text-stroke: 0.1px black;
-  text-align: left;
+/* Extra small devices (phones, 576px and down) */
+@media (max-width: 575.98px) {
+  .grid-container {
+    grid-template-areas:
+      '';
+  }
 }
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .grid-container {
+    grid-template-areas:
+      '';
+  }
+}
 
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .grid-container {
+    grid-template-areas:
+      '';
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .grid-container {
+    grid-template-areas:
+      'hci trophy hci2'
+    ;
+    padding: 20px 30px;
+  }
+
+  .item-vertical {
+    height: auto;
+    width: 50%;
+  }
+
+  .item-horizontal {
+    height: auto;
+    width: 100%;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .grid-container {
+    grid-template-areas:
+      'hci trophy hci2'
+    ;
+    padding: 20px 40px;
+  }
+
+  .item-vertical {
+    height: auto;
+    width: 50%;
+  }
+
+  .item-horizontal {
+    height: auto;
+    width: 100%;
+  }
+
+  .card-body p {
+    font-size: 1rem;
+  }
+}
+
+.grid-container>div {
+  text-align: center;
+  font-size: 30px;
+}
+
+/** Grid Items **/
+#item-HCI {
+  grid-area: hci;
+  background: transparent;
+  border: none;
+}
+
+#item-trophy {
+  grid-area: trophy;
+  background: transparent;
+  border: none;
+}
+
+#item-HCI2 {
+  grid-area: hci2;
+  background: transparent;
+  border: none;
+}

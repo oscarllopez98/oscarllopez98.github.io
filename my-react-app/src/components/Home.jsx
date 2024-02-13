@@ -4,7 +4,6 @@ import { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleArrowDown } from '@fortawesome/free-solid-svg-icons';
 
-
 export default function Home() {
 
     // const [width, setWidth] = useState(window.innerWidth);
@@ -42,7 +41,7 @@ export default function Home() {
                     <SocialMediaButtons />
                 </div>
             </div>
-            <div class="row">
+            <div className="row">
                 <a id="circle-arrow-down" className="align-self-end" href="#"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
             </div>
         </header>
