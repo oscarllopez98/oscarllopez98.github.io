@@ -393,7 +393,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .grid-container {
     grid-template-areas:
-    'hci hci hci hci  trophy trophy trophy trophy hci2 hci2 hci2 hci2'
+    'hci hci hci hci  trophy trophy trophy trophy personal personal personal personal'
     ;
     padding: 20px 30px;
   }
@@ -417,7 +417,7 @@ body {
 @media (min-width: 1200px) {
   .grid-container {
     grid-template-areas:
-    'hci hci hci hci hci trophy trophy trophy trophy hci2 hci2 hci2 hci2 hci2'
+    'hci hci hci hci hci trophy trophy trophy trophy personal personal personal personal personal'
     ;
     padding: 20px 40px;
   }
@@ -455,8 +455,8 @@ body {
   border: none;
 }
 
-#item-HCI2 {
-  grid-area: hci2;
+#item-personal-site {
+  grid-area: personal;
   background: transparent;
   border: none;
 }

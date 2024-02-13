@@ -12,7 +12,7 @@ export default function PortfolioItemVertical({ item }) {
                         </small>
                     </p>
                 </div>
-                <a href={item['href']}>
+                <a href={item['href']} target="_blank">
                     <img src={item['thumbnailSrc']} alt={item['alt']} className="card-img-bottom item-vertical" />
                 </a>
             </div>
