@@ -512,3 +512,185 @@ body {
   background: transparent;
   border: none;
 }
+
+
+
+
+
+
+
+
+/** Section: Resume **/
+
+#resume {
+  background-color: #fff;
+  padding: 80px 0;
+}
+
+#education {
+  margin-bottom: 48px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #E8E8E8;
+}
+
+#education-row {
+  padding-bottom: 1rem;
+}
+
+#resume h3 {
+  text-align: left;
+}
+
+#resume p {
+  text-align: left;
+  color: #838C95
+}
+
+#resume h4 {
+  border-bottom: 3px solid #11ABB0;
+}
+
+.certificate, .work-experience {
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+#resume h3, #resume p{
+  text-align: left;
+}
+
+#work-experience ul {
+  list-style-type: none;
+  padding: 0;
+  li {
+    text-align: left;
+    padding-bottom: 10px;
+    color: #838C95
+  }
+}
+
+.italics {
+  font-style: italic;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+/* Styles applied here will affect devices with a maximum width of 575.98px */
+@media (max-width: 575.98px) {
+  /* Add styles for extra small devices here */
+  #education-section-header h4, #certificate-section-header h4, #work-history-section-header h4 {
+    font-size: 1.5em;
+    display:inline-block;
+    height: 60%;
+    padding-bottom: 20px;
+  }
+
+  #certificate-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bullet-point::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    margin-right: 0; /* Add some spacing between bullet point and text */
+    font-size: 1.5em;
+  }
+}
+
+/* Small devices (phones, 576px and up) */
+/* Styles applied here will affect devices with a minimum width of 576px */
+@media (min-width: 576px) and (max-width: 768px) {
+  /* Add styles for small devices here */
+  #education-section-header h4, #certificate-section-header h4, #work-history-section-header h4 {
+    font-size: 1.5em;
+    display:inline-block;
+    height: 60%;
+    padding-bottom: 20px;
+  }
+
+  #certificate-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bullet-point::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    margin-right: 0; /* Add some spacing between bullet point and text */
+    font-size: 1.5em;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+/* Styles applied here will affect devices with a minimum width of 768px */
+@media (min-width: 768px) and (max-width: 992px) {
+  /* Add styles for medium devices here */
+  #education-section-header h4, #certificate-section-header h4, #work-history-section-header h4 {
+    font-size: 1.5em;
+    display:inline-block;
+    height: 60%;
+    padding-bottom: 20px;
+  }
+
+  #certificate-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bullet-point::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    margin-right: 0; /* Add some spacing between bullet point and text */
+    font-size: 1.5em;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+/* Styles applied here will affect devices with a minimum width of 992px */
+@media (min-width: 992px) and (max-width: 1200px){
+  /* Add styles for large devices here */
+  #education-section-header, #certificate-section-header, #work-history-section-header  {
+    font-size: 1em;
+    display: flex;
+    height: 0%;
+  }
+
+  #certificate-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bullet-point::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    margin-right: 0; /* Add some spacing between bullet point and text */
+    font-size: 1.5em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+/* Styles applied here will affect devices with a minimum width of 1200px */
+@media (min-width: 1200px) {
+  /* Add styles for extra large devices here */
+
+  #education-section-header, #certificate-section-header, #work-history-section-header  {
+    font-size: 1.5em;
+    display: flex;
+    height: 0%;
+  }
+
+  #certificate-section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .bullet-point::before {
+    content: '\2022'; /* Unicode character for bullet point */
+    margin-right: 0; /* Add some spacing between bullet point and text */
+    font-size: 1.5em;
+  }
+}
