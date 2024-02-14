@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '/src/App.jsx';
-import '/public/assets/main-z0CWbtLB.css';
 
 ReactDOM.render(
   <React.StrictMode>
