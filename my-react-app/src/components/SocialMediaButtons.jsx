@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faInstagram, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faInstagram, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function SocialMediaButtons() {
     return (
@@ -10,6 +10,10 @@ export default function SocialMediaButtons() {
                 </li>
                 <li>
                     <a href="https://www.instagram.com/oscarllopez/" className='social-media-icon' target="_blank"><FontAwesomeIcon icon={faInstagram} />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://gitlab.com/oscarllopez98" className='social-media-icon' target="_blank"><FontAwesomeIcon icon={faGithub} />
                     </a>
                 </li>
             </ul>
