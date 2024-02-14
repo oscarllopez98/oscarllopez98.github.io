@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: 'public',
     rollupOptions: {
-      input: 'index.html', // Adjust the path as needed
+      input: 'main.js', // Adjust the path as needed
     },
   }
 })
