@@ -51,6 +51,8 @@ body {
   a {
     color: white;
   }
+
+
 }
 
 /** Styles if menu is closed **/
@@ -129,6 +131,11 @@ body {
 #nav-home-container {
   justify-content: center;
   height: 100%;
+  padding: 0;
+
+  .col {
+    padding: 0;
+  }
 }
 
 #nav-row {

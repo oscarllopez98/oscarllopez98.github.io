@@ -50,10 +50,8 @@ export default function Home() {
                     <div id="arrow-row" className="row">
                         <a id="circle-arrow-down" className="align-self-end" href="#"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
                     </div>
-
                 </div>
             </div>
-
         </header>
     );
 }

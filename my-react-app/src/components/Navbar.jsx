@@ -13,7 +13,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav id="navbar" className={`navbar navbar-expand-lg navbar-${isMenuOpen ? 'filled' : 'transparent'} sticky-top`}>
+        <nav id="navbar" className={`navbar sticky-top navbar-expand-lg navbar-${isMenuOpen ? 'filled' : 'transparent'}`}>
             <div id="navbar-container" className="container-fluid">
                 <button onClick={handleClick} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fa-solid fa-bars navbar-toggler-icon"></i>
