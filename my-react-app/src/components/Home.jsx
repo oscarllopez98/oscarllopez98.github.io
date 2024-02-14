@@ -48,7 +48,7 @@ export default function Home() {
                         </div>
                     </div>
                     <div id="arrow-row" className="row">
-                        <a id="circle-arrow-down" className="align-self-end" href="#"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
+                        <a id="circle-arrow-down" className="align-self-end" href="#about"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
                     </div>
                 </div>
             </div>
