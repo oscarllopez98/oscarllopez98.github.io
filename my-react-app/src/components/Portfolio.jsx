@@ -11,7 +11,7 @@ export default function Portfolio() {
         thumbnailSrc: 'src/assets/thumbnails/HCI_Thumbnail.png',
         alt: 'HCI Project Thumbnail',
         text: 'Human-Computer Interaction Term Project Homepage. I am hosting the Pear Programming team homepage, which holds milestone/deliverable updates for my team\'s project. Click the image to see more!',
-        skills: ['UX Design', 'Front-End Design/Devlopment', 'Web Development', 'IRB Training', 'Figma', 'Ideation', 'Prototyping']
+        skills: ['UX Design', 'Front-End Design/Development', 'Web Development', 'IRB Training', 'Figma', 'Ideation', 'Prototyping']
     }
 
     const PERSONAL_WEBSITE = {
@@ -31,7 +31,7 @@ export default function Portfolio() {
         thumbnailSrc: 'src/assets/thumbnails/TrophyTeam_Thumbnail.png',
         alt: 'TrophyTeam Project Thumbnail',
         text: 'Android Application, utilizing Java, XML, and Google Firebase, that allows users to track cardio workouts in a user-friendly environment. Users can create and remove exercises. Click the image to see a demo!',
-        skills: ['Android Development', 'Java', 'XML', 'Mobile Development', 'Cloud Database', 'Mobile Development', 'Figma']
+        skills: ['Android Development', 'Java', 'XML', 'Mobile Development', 'Cloud Database', 'Figma']
     }
 
     return (
