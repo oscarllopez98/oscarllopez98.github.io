@@ -1,0 +1,17 @@
+# The Docker image that will be used to build your app
+image: node:14
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - public
+  only:
+    - main  # Adjust this to match your main branch name
