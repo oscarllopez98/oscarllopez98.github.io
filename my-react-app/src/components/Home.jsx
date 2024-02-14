@@ -31,19 +31,29 @@ export default function Home() {
      <span>Start scrolling</span> and discover more <span>about me!</span>`
 
     return (
-        <header id="home" className="pt-3 pt-md-5" style={{ height: height }}>
-            <Navbar />
-            <div id="home-container">
-                <div id="home-text" className="text-center">
-                    <h1 className="responsive-header">I'm Oscar Lopez.</h1>
-                    <article id="responsive-article" className="lead lead-md" dangerouslySetInnerHTML={{ __html: description }}></article>
-                    <br />
-                    <SocialMediaButtons />
+        <header id="home" style={{ height: height }}>
+            <div id="nav-home-container" className="container row">
+                <div className="col">
+                    <div id="nav-row" className="row">
+                        <Navbar />
+                    </div>
+                    <div id="home-row" className="row">
+                        <div id="home-container">
+                            <div id="home-text" className="text-center">
+                                <h1 className="responsive-header">I'm Oscar Lopez.</h1>
+                                <article id="responsive-article" className="lead lead-md" dangerouslySetInnerHTML={{ __html: description }}></article>
+                                <br />
+                                <SocialMediaButtons />
+                            </div>
+                        </div>
+                    </div>
+                    <div id="arrow-row" className="row">
+                        <a id="circle-arrow-down" className="align-self-end" href="#"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
+                    </div>
+
                 </div>
             </div>
-            <div className="row">
-                <a id="circle-arrow-down" className="align-self-end" href="#"><FontAwesomeIcon icon={faCircleArrowDown} /></a>
-            </div>
+
         </header>
     );
 }

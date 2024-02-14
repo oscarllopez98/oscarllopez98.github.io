@@ -13,7 +13,7 @@ export default function Navbar() {
     }
 
     return (
-        <nav id="navbar" className={`navbar navbar-expand-lg position-absolute top-0 navbar-${isMenuOpen ? 'filled' : 'transparent'}`}>
+        <nav id="navbar" className={`navbar navbar-expand-lg navbar-${isMenuOpen ? 'filled' : 'transparent'} sticky-top`}>
             <div id="navbar-container" className="container-fluid">
                 <button onClick={handleClick} className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fa-solid fa-bars navbar-toggler-icon"></i>
@@ -21,16 +21,16 @@ export default function Navbar() {
                 <div id="navbarNavDropdown" className="collapse navbar-collapse">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a className="nav-link active" aria-current="page" href="#home">HOME</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">ABOUT</a>
+                            <a className="nav-link" href="#about">ABOUT</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">PORTFOLIO</a>
+                            <a className="nav-link" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#">RESUME</a>
+                            <a className="nav-link" href="#resume">RESUME</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">HOBBIES & INTEREST</a>
