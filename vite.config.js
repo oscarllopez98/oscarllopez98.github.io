@@ -8,7 +8,7 @@ export default defineConfig({
     outDir: 'public',
     base: '/personalsite/', // Adjust this to match your GitLab Pages URL structure
     rollupOptions: {
-      input: '/src/main.jsx', // Adjust the path as needed
+      input: '/index.html', // Adjust the path as needed
     },
   },
 })
