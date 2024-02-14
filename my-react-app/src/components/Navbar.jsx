@@ -63,9 +63,6 @@ export default function Navbar() {
                         <li className="nav-item">
                             <a className="nav-link" href="#resume">RESUME</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">HOBBIES & INTEREST</a>
-                        </li>
                     </ul>
                 </div>
             </div>

@@ -17,7 +17,6 @@ function App() {
       <About/>
       <Portfolio/>
       <Resume/>
-      <section id='hobbies-and-interests'>HOBBIES AND INTERESTS</section>
     </>
   );
 }
