@@ -132,3 +132,4 @@
       animationSpeed: 600,
       randomize: false,
    });
+});
