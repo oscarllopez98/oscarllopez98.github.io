@@ -34,6 +34,26 @@ export default function Portfolio() {
         skills: ['Android Development', 'Java', 'XML', 'Mobile Development', 'Cloud Database', 'Figma']
     }
 
+    const CALCULATOR = {
+        id: 'item-calculator',
+        title: 'React Calculator',
+        href: 'https://drive.google.com/file/d/1m20qNo-hwBRo5fabnqFEpKmOkeEJhRMa/view?usp=sharing',
+        thumbnailSrc: 'src/assets/react-calculator-thumbnail.png',
+        alt: 'React Calculator Project Thumbnail',
+        text: 'React course independent project dedicated for exercising state management, conditional output, props, and user input. Click the image to see a demo!',
+        skills: ['React', 'State', 'Conditional Output', 'User Input Handling', 'Components', 'Props']  
+    }
+
+    const TIC_TAC_TOE = {
+        id: 'item-tic-tac-toe',
+        title: 'React Tic-Tac-Toe',
+        href: 'https://drive.google.com/file/d/1pfOksFKYrtHduKEykPAM-vIQ2vLvG3-7/view?usp=sharing',
+        thumbnailSrc: 'src/assets/tic-tac-toe-thumbnail.png',
+        alt: 'React Tic-Tac-Toe Project Thumbnail',
+        text: 'React course independent project dedicated for exercising state management, props, and user input. Click the image to see a demo!',
+        skills: ['React', 'Multiple States', 'Conditional Output', 'User Input Handling', 'Components', 'Props', 'Game logic']  
+    }
+
     return (
         <>
             <div id="portfolio">
@@ -43,6 +63,8 @@ export default function Portfolio() {
                         <PortfolioItemHorizontal item={HCI} />
                         <PortfolioItemHorizontal item={PERSONAL_WEBSITE} />
                         <PortfolioItemVertical item={TROPHY} />
+                        <PortfolioItemHorizontal item={CALCULATOR} />
+                        <PortfolioItemHorizontal item={TIC_TAC_TOE} />
                     </div>
                 </div>
             </div>

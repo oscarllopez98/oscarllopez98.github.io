@@ -383,6 +383,8 @@ body {
       'hci'
       'trophy'
       'personal'
+      'calculator'
+      'tictactoe'
     ;
     padding: 20px 30px;
   }
@@ -409,6 +411,8 @@ body {
       'hci'
       'trophy'
       'personal'
+      'calculator'
+      'tictactoe'
     ;
     padding: 20px 30px;
   }
@@ -433,6 +437,7 @@ body {
   .grid-container {
     grid-template-areas:
       'hci hci hci hci  trophy trophy trophy trophy personal personal personal personal'
+      'calculator calculator calculator calculator calculator calculator tictactoe tictactoe tictactoe tictactoe tictactoe tictactoe'
     ;
     padding: 20px 30px;
   }
@@ -457,6 +462,7 @@ body {
   .grid-container {
     grid-template-areas:
       'hci hci hci hci  trophy trophy trophy trophy personal personal personal personal'
+      'calculator calculator calculator calculator calculator calculator tictactoe tictactoe tictactoe tictactoe tictactoe tictactoe'
     ;
     padding: 20px 30px;
   }
@@ -481,6 +487,7 @@ body {
   .grid-container {
     grid-template-areas:
       'hci hci hci hci hci trophy trophy trophy trophy personal personal personal personal personal'
+      'calculator calculator calculator calculator calculator calculator calculator tictactoe tictactoe tictactoe tictactoe tictactoe tictactoe tictactoe'
     ;
     padding: 20px 40px;
   }
@@ -520,6 +527,18 @@ body {
 
 #item-personal-site {
   grid-area: personal;
+  background: transparent;
+  border: none;
+}
+
+#item-calculator {
+  grid-area: calculator;
+  background: transparent;
+  border: none;
+}
+
+#item-tic-tac-toe {
+  grid-area: tictactoe;
   background: transparent;
   border: none;
 }
