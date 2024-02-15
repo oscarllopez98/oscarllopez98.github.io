@@ -24,6 +24,7 @@ export default function Home() {
         };
     }, []);
 
+    const backgroundImage = 'url(src/assets/header-background.jpg)'
 
     const description = `I\'m not just an <span>experienced Quality Assurance Engineer</span> ;
      I\'m a <span>future-minded Software Engineer</span> driven by an unyielding passion for innovation, 
@@ -31,7 +32,7 @@ export default function Home() {
      <span>Start scrolling</span> and discover more <span>about me!</span>`
 
     return (
-        <header id="home" style={{ height: height }}>
+        <header id="home" className="home" style={{ height: height, backgroundImage: backgroundImage }}>
             <div id="nav-home-container" className="container row">
                 <div className="col">
                     <div id="nav-row" className="row">

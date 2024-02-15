@@ -97,8 +97,7 @@ body {
 
 /** Section: Home **/
 
-#home {
-  background-image: url('./assets/header-background.jpg');
+.home {
   background-size: cover;
   background-repeat: no-repeat;
 
