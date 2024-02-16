@@ -15,7 +15,7 @@ export default function Certificate({ cert }) {
             <h3>{certTitle}</h3>
             <p className="certificate-subtitle"><span className="italics">{certSubtitle}</span> <span className="bullet-point"></span> {certDuration}</p>
             <p className="certificate-description">{certDescription}</p>
-            <div className="certificate-button"><DownloadButton src={certSrc} buttonType="certificate" downloadName={certTitle} /></div>
+            <div className="certificate-button"><DownloadButton src={certSrc} buttonType="certificate" downloadName={certTitle} title="Download Certificate" /></div>
         </div>
     </>);
 }

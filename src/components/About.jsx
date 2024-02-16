@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 
 export default function About() {
 
-    const imageURL = 'src/assets/profile-pic.jpg';
+    const imageURL = 'src/assets/OscarLopez.png';
     const aboutMeDescription = 'I graduated from The University of Georgia (UGA), majoring in Computer Science. I started my professional career with Amazon, leading to 2+ years as a Quality Assurance Engineer. During my time with Amazon, I mostly enjoyed expanding upon our test automation, whether it was through adding more test cases, designing architecture for leveraging microservices, and developing in depth test plans. Prior to my time at Amazon, I worked at the UGA Ramsey Student Center as a Facility Technician, then was promoted to a Program Assistant. The greatest time there was spent learning how to take responsbily take apart machines, training new-hires, and using my programming skills to make my Program Assistant job more efficient!';
     const aboutMeAddress = 'Seattle, WA 98144';
 
@@ -61,7 +61,7 @@ export default function About() {
                                 <div id="download-resume-buttons" className="col-12 col-md-6 col-lg-6">
                                     <DownloadButton
                                         title="Download Resume"
-                                        pathToDownload={resume_URL}
+                                        src={resume_URL}
                                         buttonType="download"
                                         downloadName={'Resume_OscarLopez'} />
                                 </div>
