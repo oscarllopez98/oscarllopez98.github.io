@@ -11,7 +11,8 @@ export default function Resume() {
         title: 'Amazon Web Services (AWS)',
         subtitle: 'AWS Certified Cloud Practitioner',
         duration: 'January 2024',
-        description: 'The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology. This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy.'
+        description: 'The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology. This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy.',
+        src: 'src/assets/AWS-Certified-Cloud-Practitioner-certificate.pdf'
     };
 
 
@@ -80,8 +81,8 @@ export default function Resume() {
                         </div>
                         <div id="education-section-content" className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
                             <h3>University of Georgia</h3>
-                            <p><span className="italics">Computer Science</span> <span className="bullet-point"></span> December 2020</p>
-                            <p>At the University of Georgia, I enrolled as a Computer Science major, where I actively engaged in learning skills to develop my Software Engineering and Web Development skills, including the Software Lifecycle, Data Structures, and Algorithms.</p>
+                            <p className="education-subtitle"><span className="italics">Computer Science</span> <span className="bullet-point"></span> December 2020</p>
+                            <p className="education-description">At the University of Georgia, I enrolled as a Computer Science major, where I actively engaged in learning skills to develop my Software Engineering and Web Development skills, including the Software Lifecycle, Data Structures, and Algorithms.</p>
                         </div>
                     </div>
                     <div className="row">
