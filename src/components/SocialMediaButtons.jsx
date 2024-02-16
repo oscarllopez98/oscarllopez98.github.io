@@ -13,7 +13,7 @@ export default function SocialMediaButtons() {
                     </a>
                 </li>
                 <li>
-                    <a href="https://gitlab.com/oscarllopez98" className='social-media-icon' target="_blank"><FontAwesomeIcon icon={faGithub} />
+                    <a href="https://github.com/oscarllopez98" className='social-media-icon' target="_blank"><FontAwesomeIcon icon={faGithub} />
                     </a>
                 </li>
             </ul>
