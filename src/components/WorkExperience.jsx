@@ -11,9 +11,7 @@ export default function WorkExperience({ job }) {
             <p className="work-experience-position"><span className="italics">{position}</span> <span className="bullet-point"></span> {duration}</p>
             <ul className="work-experience-description">
                 {job.description.map((item, index) => (
-                    <>
-                        <li key={index}>{item}</li>
-                    </>
+                    <li key={index}>{item}</li>
                 ))}
             </ul>
         </div>
