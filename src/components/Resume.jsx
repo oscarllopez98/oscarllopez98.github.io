@@ -81,7 +81,7 @@ export default function Resume() {
                         </div>
                         <div id="education-section-content" className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
                             <h3>University of Georgia</h3>
-                            <p className="education-subtitle"><span className="italics">Computer Science</span> <span className="bullet-point"></span> December 2020</p>
+                            <p className="education-subtitle"><span className="italics">B.S. Computer Science<br className="subtitle-break"/></span> <span className="bullet-point"></span> December 2020</p>
                             <p className="education-description">At the University of Georgia, I enrolled as a Computer Science major, where I actively engaged in learning skills to develop my Software Engineering and Web Development skills, including the Software Lifecycle, Data Structures, and Algorithms.</p>
                         </div>
                     </div>

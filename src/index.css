@@ -598,14 +598,18 @@ body {
 
 .italics {
   font-style: italic;
-  font-size: 1.05rem;
   font-weight: 500;
+  font-size: 1.15rem;
 }
 
 .button-certificate a {
   color: white;
   text-decoration: unset;
   padding-left: 1rem;
+}
+
+.subtitle-break, .position-break, .education-break {
+  display: none;
 }
 
 
@@ -627,6 +631,10 @@ body {
     text-align: center;
   }
 
+  .work-experience-position, .certificate-subtitle, .education-subtitle {
+    font-size: 1em;
+  }
+
   #certificate-section-content {
     display: flex;
     flex-direction: column;
@@ -639,6 +647,14 @@ body {
     margin-right: 0;
     /* Add some spacing between bullet point and text */
     font-size: 1.5em;
+  }
+
+  .subtitle-break, .position-break, .education-break {
+    display: inline;
+  }
+
+  .bullet-point {
+    display: none;
   }
 }
 
@@ -659,6 +675,8 @@ body {
   #resume h3, .work-experience-position, .certificate-subtitle, .education-subtitle {
     text-align: center;
   }
+
+
 
   #certificate-section-content {
     display: flex;

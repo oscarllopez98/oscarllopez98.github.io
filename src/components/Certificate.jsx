@@ -13,7 +13,7 @@ export default function Certificate({ cert }) {
     return (<>
         <div id={'certificate-' + certID} className="certificate col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
             <h3>{certTitle}</h3>
-            <p className="certificate-subtitle"><span className="italics">{certSubtitle}</span> <span className="bullet-point"></span> {certDuration}</p>
+            <p className="certificate-subtitle"><span className="italics">{certSubtitle}<br className="subtitle-break"/> </span><span className="bullet-point"></span> {certDuration}</p>
             <p className="certificate-description">{certDescription}</p>
             <div className="certificate-button"><DownloadButton src={certSrc} buttonType="certificate" downloadName={certTitle} title="Download Certificate" /></div>
         </div>
