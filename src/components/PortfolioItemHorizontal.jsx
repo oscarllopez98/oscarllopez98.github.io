@@ -2,7 +2,7 @@ export default function PortfolioItemHorizontal({ item }) {
     return (
         <>
             <div id={item['id']} className="card">
-                <a href={item['href']} target="_blank">
+                <a href={item['href']} target="_blank" className="item-horizontal-container">
                     <img src={item['thumbnailSrc']} alt={item['alt']} className="card-img-top item-horizontal" />
                 </a>
                 <div className="card-body item-horizontal-card-body">
