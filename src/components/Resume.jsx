@@ -15,7 +15,15 @@ export default function Resume() {
         src: 'src/assets/AWS-Certified-Cloud-Practitioner-certificate.pdf'
     };
 
-
+    //AWS Certified Developer Certificate
+    const awsDeveloperAssociate = {
+        id: 'developer-associate',
+        title: 'Amazon Web Services (AWS)',
+        subtitle: 'AWS Certified Developer — Associate',
+        duration: 'February 2024',
+        description: 'AWS Certified Developer - Associate showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS.',
+        src: ''
+    };
 
 
     // JOB SECTION
