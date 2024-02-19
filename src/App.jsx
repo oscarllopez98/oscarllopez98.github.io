@@ -8,6 +8,7 @@ const LazyHome = React.lazy(() => import('/src/components/Home'));
 const LazyAbout = React.lazy(() => import('/src/components/About'));
 const LazyPortfolio = React.lazy(() => import('/src/components/Portfolio'));
 const LazyResume = React.lazy(() => import('/src/components/Resume'));
+const LazyHobbiesAndInterests = React.lazy(() => import('/src/components/HobbiesAndInterests'));
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <LazyAbout />
       <LazyPortfolio />
       <LazyResume />
+      <LazyHobbiesAndInterests />
     </Suspense>
   );
 }
