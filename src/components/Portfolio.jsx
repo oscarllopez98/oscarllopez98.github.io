@@ -26,7 +26,7 @@ export default function Portfolio() {
 
     const TROPHY = {
         id: 'item-trophy',
-        title: 'Trophy',
+        title: 'Trophy - Android',
         href: 'https://drive.google.com/file/d/1KXSNh4wBloaf5DOmCBWUax9bKdHCEOpz/view?usp=sharing',
         thumbnailSrc: 'src/assets/thumbnails/TrophyTeam_Thumbnail.png',
         alt: 'TrophyTeam Project Thumbnail',
@@ -54,6 +54,16 @@ export default function Portfolio() {
         skills: ['React', 'Multiple States', 'Conditional Output', 'User Input Handling', 'Components', 'Props', 'Game logic']  
     }
 
+    const IOS_TROPHY = {
+        id: 'item-ios-trophy',
+        title: 'Trophy Team - iOS (in progress)',
+        href: 'https://drive.google.com/file/d/1XLULtfyo_SGpCxH-LduXSWSue9_EKtpH/view?usp=sharing',
+        thumbnailSrc: 'src/assets/ios-trophy-thumbnail.png',
+        alt: 'iOS Trophy Thumbnail',
+        text: 'iOS Application, utilizing Swift, Xcode, Software Engineering best practices, that allows the user to flexibly track any type of workout they choose in a UI friendly way. Click the image to see a demo or visit my Github Trophy repo to read more!',
+        skills: ['iOS Development','Software Engineering','MVVM Architecture','Unit Testing','State Management','Data Structures','Factory','Singleton','Swift','Xcode','Database Management','Database Design','UML','UI Design','Figma','Git','Linux']
+    }
+
     return (
         <>
             <div id="portfolio">
@@ -63,6 +73,7 @@ export default function Portfolio() {
                         <PortfolioItemHorizontal item={HCI} />
                         <PortfolioItemHorizontal item={PERSONAL_WEBSITE} />
                         <PortfolioItemVertical item={TROPHY} />
+                        <PortfolioItemVertical item={IOS_TROPHY}/>
                         <PortfolioItemHorizontal item={CALCULATOR} />
                         <PortfolioItemHorizontal item={TIC_TAC_TOE} />
                     </div>

@@ -398,7 +398,8 @@ body {
   .grid-container {
     grid-template-areas:
       'hci'
-      'trophy'
+      'iosTrophy'
+      'androidTrophy'
       'personal'
       'calculator'
       'tictactoe'
@@ -426,7 +427,8 @@ body {
   .grid-container {
     grid-template-areas:
       'hci'
-      'trophy'
+      'iosTrophy'
+      'androidTrophy'
       'personal'
       'calculator'
       'tictactoe'
@@ -453,8 +455,8 @@ body {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .grid-container {
     grid-template-areas:
-      'hci hci hci hci  trophy trophy trophy trophy personal personal personal personal'
-      'calculator calculator calculator calculator trophy trophy trophy trophy tictactoe tictactoe tictactoe tictactoe'
+      'hci hci hci hci iosTrophy iosTrophy iosTrophy iosTrophy personal personal personal personal'
+      'calculator calculator calculator calculator androidTrophy androidTrophy androidTrophy androidTrophy tictactoe tictactoe tictactoe tictactoe'
     ;
     padding: 20px 30px;
   }
@@ -478,8 +480,8 @@ body {
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .grid-container {
     grid-template-areas:
-      'hci hci hci hci  trophy trophy trophy trophy personal personal personal personal'
-      'calculator calculator calculator calculator trophy trophy trophy trophy tictactoe tictactoe tictactoe tictactoe'
+      'hci hci hci hci iosTrophy iosTrophy iosTrophy iosTrophy personal personal personal personal'
+      'calculator calculator calculator calculator androidTrophy androidTrophy androidTrophy androidTrophy tictactoe tictactoe tictactoe tictactoe'
     ;
     padding: 20px 30px;
   }
@@ -503,8 +505,8 @@ body {
 @media (min-width: 1200px) {
   .grid-container {
     grid-template-areas:
-      'hci hci hci hci hci trophy trophy trophy trophy personal personal personal personal personal'
-      'calculator calculator calculator calculator calculator trophy trophy trophy trophy tictactoe tictactoe tictactoe tictactoe tictactoe'
+      'hci hci hci hci hci iosTrophy iosTrophy iosTrophy iosTrophy personal personal personal personal personal'
+      'calculator calculator calculator calculator calculator androidTrophy androidTrophy androidTrophy androidTrophy tictactoe tictactoe tictactoe tictactoe tictactoe'
     ;
     padding: 20px 40px;
   }
@@ -537,7 +539,7 @@ body {
 }
 
 #item-trophy {
-  grid-area: trophy;
+  grid-area: androidTrophy;
   background: transparent;
   border: none;
 }
@@ -556,6 +558,12 @@ body {
 
 #item-tic-tac-toe {
   grid-area: tictactoe;
+  background: transparent;
+  border: none;
+}
+
+#item-ios-trophy {
+  grid-area: iosTrophy;
   background: transparent;
   border: none;
 }
