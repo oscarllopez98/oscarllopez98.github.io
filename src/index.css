@@ -721,7 +721,7 @@ body {
   }
 
   #certificate-subtitle {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
   #certificate-section-content {
@@ -736,13 +736,14 @@ body {
     margin-right: 0;
     /* Add some spacing between bullet point and text */
     font-size: 1.5em;
+    display: none;
   }
 
   .certificate-badge {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 0;
+    padding-left: 1.5rem;
     margin: 0;
   }
 }
@@ -890,14 +891,18 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    padding: 10px;
     margin: 0;
   }
 
   #certificate-badge-col {
     height: 100%;
   }
+
+  #certificate-badge-row {
+    height: 40%;
+  }
 }
+
 
 
 
