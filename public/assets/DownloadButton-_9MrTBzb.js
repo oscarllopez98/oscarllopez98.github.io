@@ -1,0 +1,1 @@
+import{j as o}from"./index-Aii5T-EW.js";import{F as e,a as s}from"./index-CVuSpZ6E.js";function l({title:n="Title Not Set",src:t="#",buttonType:r="none",downloadName:a}){return o.jsx(o.Fragment,{children:o.jsxs("button",{className:"btn btn-primary button-"+r,children:[o.jsx(e,{icon:s}),o.jsx("a",{href:t,download:a,children:n})]})})}export{l as D};
