@@ -20,9 +20,9 @@ export default function Resume() {
         id: 'developer-associate',
         title: 'Amazon Web Services (AWS)',
         subtitle: 'AWS Certified Developer — Associate',
-        duration: 'February 2024',
+        duration: 'March 2024',
         description: 'AWS Certified Developer - Associate showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS.',
-        src: ''
+        src: 'src/assets/AWS-Certified-Developer-Associate-certificate.pdf'
     };
 
 
@@ -98,7 +98,8 @@ export default function Resume() {
                             <h4><span>Certificates</span></h4>
                         </div>
                         <div id="certificate-section-content" className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
-                            <Certificate cert={awsCloudPractitioner}/>
+                            <Certificate cert={awsDeveloperAssociate} />
+                            <Certificate cert={awsCloudPractitioner} />
                         </div>
                     </div>
                 </div>

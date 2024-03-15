@@ -17,7 +17,7 @@ function App() {
       <LazyAbout />
       <LazyPortfolio />
       <LazyResume />
-      <LazyHobbiesAndInterests />
+      {/* <LazyHobbiesAndInterests /> */}
     </Suspense>
   );
 }
