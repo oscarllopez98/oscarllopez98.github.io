@@ -12,7 +12,8 @@ export default function Resume() {
         subtitle: 'AWS Certified Cloud Practitioner',
         duration: 'January 2024',
         description: 'Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.',
-        src: 'src/assets/AWS-Certified-Cloud-Practitioner-certificate.pdf'
+        src: 'src/assets/AWS-Certified-Cloud-Practitioner-certificate.pdf',
+        badgeSrc: 'src/assets/certificate-badge-aws-cloud-practitioner.png'
     };
 
     //AWS Certified Developer Certificate
@@ -22,7 +23,8 @@ export default function Resume() {
         subtitle: 'AWS Certified Developer — Associate',
         duration: 'March 2024',
         description: 'Earners of this certification have a comprehensive understanding of application life-cycle management. They demonstrated proficiency in writing applications with AWS service APIs, AWS CLI, and SDKs; using containers; and deploying with a CI/CD pipeline. Badge owners are able to develop, deploy, and debug cloud-based applications that follow AWS best practices.',
-        src: 'src/assets/AWS-Certified-Developer-Associate-certificate.pdf'
+        src: 'src/assets/AWS-Certified-Developer-Associate-certificate.pdf',
+        badgeSrc: 'src/assets/certificate-badge-aws-developer-associate.png'
     };
 
 
@@ -97,9 +99,9 @@ export default function Resume() {
                         <div id="certificate-section-header" className="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3">
                             <h4><span>Certificates</span></h4>
                         </div>
-                        <div id="certificate-section-content" className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9">
-                            <Certificate cert={awsDeveloperAssociate} />
-                            <Certificate cert={awsCloudPractitioner} />
+                        <div id="certificate-section-content" className="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-9 px-0">
+                            <Certificate cert={awsDeveloperAssociate} className="certificate-item"/>
+                            <Certificate cert={awsCloudPractitioner} className="certificate-item"/>
                         </div>
                     </div>
                 </div>
