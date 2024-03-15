@@ -11,7 +11,7 @@ export default function Resume() {
         title: 'Amazon Web Services (AWS)',
         subtitle: 'AWS Certified Cloud Practitioner',
         duration: 'January 2024',
-        description: 'The AWS Certified Cloud Practitioner validates foundational, high-level understanding of AWS Cloud, services, and terminology. This is a good starting point on the AWS Certification journey for individuals with no prior IT or cloud experience switching to a cloud career or for line-of-business employees looking for foundational cloud literacy.',
+        description: 'Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.',
         src: 'src/assets/AWS-Certified-Cloud-Practitioner-certificate.pdf'
     };
 
@@ -21,7 +21,7 @@ export default function Resume() {
         title: 'Amazon Web Services (AWS)',
         subtitle: 'AWS Certified Developer — Associate',
         duration: 'March 2024',
-        description: 'AWS Certified Developer - Associate showcases knowledge and understanding of core AWS services, uses, and basic AWS architecture best practices, and proficiency in developing, deploying, and debugging cloud-based applications by using AWS.',
+        description: 'Earners of this certification have a comprehensive understanding of application life-cycle management. They demonstrated proficiency in writing applications with AWS service APIs, AWS CLI, and SDKs; using containers; and deploying with a CI/CD pipeline. Badge owners are able to develop, deploy, and debug cloud-based applications that follow AWS best practices.',
         src: 'src/assets/AWS-Certified-Developer-Associate-certificate.pdf'
     };
 
