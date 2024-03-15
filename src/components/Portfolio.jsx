@@ -3,7 +3,6 @@ import PortfolioItemVertical from "./PortfolioItemVertical";
 
 export default function Portfolio() {
 
-
     const HCI = {
         id: 'item-HCI',
         title: 'Pear Programming',
@@ -56,7 +55,7 @@ export default function Portfolio() {
 
     const IOS_TROPHY = {
         id: 'item-ios-trophy',
-        title: 'Trophy Team - iOS (in progress)',
+        title: 'Trophy - iOS',
         href: 'https://drive.google.com/file/d/1XLULtfyo_SGpCxH-LduXSWSue9_EKtpH/view?usp=sharing',
         thumbnailSrc: 'src/assets/ios-trophy-thumbnail.png',
         alt: 'iOS Trophy Thumbnail',
